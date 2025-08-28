@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"projecttitle/ko_KR/>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "프로젝트: 제목"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "파일 브라우저 및 기록에 대한 대체 표시 모드입니다."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "진행 상황"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "설명"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "읽는 중"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "책 설명이 없습니다."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "엔진이 읽을 수 없습니다."
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "너무 많은 중단 또는 충돌 발생"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "책"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "데이터베이스 압축 실패: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "캐시 데이터베이스 크기가 %1에서 %2로 줄었습니다."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "캐시가 비어 있습니다. 트리밍할 항목이 없습니다."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "캐시에서 %1 / %2 항목이 제거되었습니다."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"현재 디렉토리에 있는 책의 메타데이터 및 표지 이미지를 추출합니다.\r\n"
+"추출이 시작되면 화면을 탭하여 언제든지 중단할 수 있습니다.\r\n"
+"\r\n"
+"추출에는 시간이 걸릴 수 있으며 배터리 전력을 사용할 수 있습니다: 장치를 연결 "
+"상태로 두는 것이 좋습니다."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "취소"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "계속"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"하위 디렉토리에 있는 책의 정보도 추출 하시겠습니까?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "여기만"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "여기와 그 아래"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"이미 추출된 메타데이터와 표지를 새로 고치겠습니까?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "새로 고치지 않음"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"많은 책을 제거했거나 일부 디렉토리의 이름을 바꾼 경우, 캐시 데이터베이스에서 "
+"제거하는 것이 좋습니다.\r\n"
+"\r\n"
+"제거된 책의 캐시를 트리밍하시겠습니까?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "트리밍하지 않음"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "트리밍"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "중단하시겠습니까?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "색인 계속"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "색인 중단"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "제거된 책의 캐시를 트리밍하는 중"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "색인할 책 찾는 중"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "책을 찾을 수 없습니다."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "색인할 책이 1권 발견되었습니다."
+msgstr[1] "색인할 책이 %1권 발견되었습니다."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"책 %1권을 발견했습니다.\n"
+"새 책 찾는 중"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "새로운 책이 없습니다."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"색인 중 %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "중단하려면 아무 곳이나 탭하세요"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "%1 / %2권의 책을 처리했습니다."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "하나가 성공적으로 추출되었습니다."
+msgstr[1] "%1개가 성공적으로 추출되었습니다."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"백그라운드 추출 작업 시작이 실패했습니다.\n"
+"KOReader 또는 기기를 다시 시작해 주세요."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "선택"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "이름 변경"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "삭제"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "잘라내기"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "복사"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "열기"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "홈 폴더로 설정"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1끄기"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "홈"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "도서관"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "폴더"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "책"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "폴더들"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "완료"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "보류 중"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "새로 만들기"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "페이지 %1 / %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1페이지 남음"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(책 정보 없음: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(삭제됨)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "등록 중 오류가 발생했습니다:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "폰트"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "사용 불가능"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "아이콘"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~지원되지 않음"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "버전: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "표지 목록"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "표지 그리드"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "상세 목록"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "파일 이름 목록"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "페이지 당 항목 수 줄이기"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "페이지 당 항목 수 늘리기"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "모든 곳에서 이 모드 사용"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "기록 표시 모드"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "컬렉션 표시 모드"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "페이지당 항목 수"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "세로 표지 그리드 모드"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "열"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "행"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "가로 표지 그리드 모드"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "목록 모드"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "고급 설정"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "폴더 표시"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "책에서 표지 이미지를 자동 생성"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "자동 생성된 표지 이미지를 스택으로 표시"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "표지 그리드에 이름 및 세부정보 오버레이"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "책 표시"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "페이지 또는 진행 % 대신 파일 정보 표시"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "진행 % 대신 읽은 페이지 표시"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "진행률 바 대신 진행 % 표시"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "항상 최대 길이의 진행률 바 표시"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "시리즈 표시"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "사용자 정의 책 상태 화면 사용"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "하단"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "폴더 이름을 장치 정보로 바꾸기"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "왼쪽 모서리에 페이지 제어 표시"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "도서관 모드"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "열린 책을 먼저 표시"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "캐시 데이터베이스"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "홈 폴더에서 새로운 책을 자동으로 스캔"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "캐시 트리밍"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"제거된 책의 캐시를 트리밍하시겠습니까?\n"
+"(이 작업에는 시간이 걸릴 수 있습니다.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "캐시 비우기"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "표지 및 메타데이터 캐시를 삭제하시겠습니까?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "캐시가 비워졌습니다."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "캐시 크기"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "터치스크린 장치에 마지막 항목 표시기 표시"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "프로젝트: 제목 설정"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "책 정보를 추출하고 캐싱"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "캐시된 책 정보 새로 고침"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "표지 무시 해제"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "표지 무시"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "메타데이터 무시 해제"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "메타데이터 무시"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 외"

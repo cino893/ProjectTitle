@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"projecttitle/kk/>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Жоба: Атауы"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Файл браузерлері мен тарихы үшін баламалы display режимдері."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Үдеріс"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Сипаттама"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Оқу"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Кітаптың сипаттамасы қол жетімді емес."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "механизммен оқылмайды"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "көптеген үзілімдер немесе құлау"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Кітаптар"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Мәліметтер базасын тығыздау сәтсіз аяқталды: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Кэш мәліметтер базасының көлемі %1-ден %2-ге дейін азайтылды."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Кэш бос. Орын тазартатын ештеңе жоқ."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Кэштен %1 / %2 жазбалары жойылды."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Бұл ағымдағы бумадан кітаптардың метаакпараттары мен мұқабаларын шығарады."
+"\r\n"
+"Шығару басталғаннан кейін, экранға тигізу арқылы кез-келген уақытта тоқтата "
+"аласыз.\r\n"
+"\r\n"
+"Бұл шығару уақыт алуы мүмкін және батарея қуатын пайдалануы мүмкін: "
+"құрылғыңызды қуатқа қосып ұстағаныңыз жөн."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Тоқтату"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Жалғастыру"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Сондай-ақ, ішкі бумалардағы кітаптан ақпарат алу керек пе?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Тек мұнда"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Мұнда және астында"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Сіз бұрын шығарылған метаақпарат пен мұқабаларды жаңартқыңыз келе ме?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Жаңартпау"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Жаңарту"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Егер сіз көптеген кітаптарды жойып, кейбір бумаларды өзгерткен болсаңыз, "
+"оларды кэш мәліметтер базасынан жойғаныңыз жөн.\r\n"
+"\r\n"
+"Сіз жойылған кітаптардың кэшін тазартқыңыз келе ме?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Тазартып алмау"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Тазарту"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Тоқтатқыңыз келе ме?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Индекслеуді жалғастыру"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Индекслеуді тоқтату"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Жойылған кітаптардың кэшін тазарту"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Индекслеу үшін кітаптар іздеу"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Ешқандай кітап табылған жоқ."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Индекстеу үшін 1 кітап табылды."
+msgstr[1] "Индекстеу үшін %1 кітап табылды."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Табылған %1 кітап.\n"
+"Жаңа кітаптар іздеуде"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Жаңа кітаптар табылған жоқ."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Индекслеу %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Тоқтату үшін кез келген жерге тигізіңіз"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "%1 / %2 кітап өңделді."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Бір кітап сәтті шығарылды."
+msgstr[1] "%1 кітап сәтті шығарылды."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Фондық шығару жұмысын бастау сәтсіз болды.\n"
+"KOReader немесе құрылғыңызды қайта іске қосыңыз."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Қою"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Таңдау"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Атауын өзгерту"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Өшіру"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Кесіп алу"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Көшірме"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Пайдалану"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Негізгі бумасы ретінде орнату"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Өшірілген"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Басты бет"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Кітапхана"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Бума"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Кітап"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Бумалар"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Аяқталды"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Күтілуде"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Жаңа"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "бет %1 / %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 бет қалды"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(кітап туралы ақпарат жоқ: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(жойылған)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Тіркелу кезінде қате болды:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Шрифттер"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Қол жетімді емес"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Иконалар"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Қолдау көрсетілмейді"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Нұсқасы: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Мұқабалар тізімі"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Мұқабалар торы"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Толық ақпарат тізімі"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Файл атаулары тізімі"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Беттегі элементтер санын азайту"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Беттегі элементтер санын арттыру"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Бұл режимді әр жерде пайдалану"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Тарихты көрсету режимі"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Жинақтарды көрсету режимі"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Беттегі элементтер саны"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Портреттік мұқабалар торы режимі"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Бағандар"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Жолдар"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Ландшафттық мұқабалар торы режимі"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Тізім режимдері"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Кеңейтілген баптаулар"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Буманы көрсету"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Кітаптардан автоматты түрде мұқаба суреттерін жасау"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Автоматты түрде жасалған мұқаба суреттерін стек ретінде көрсету"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Мұқабалар торында атауды және толық ақпаратты көрсету"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Кітапты көрсету"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Беттер немесе прогресс % орнына файл ақпаратын көрсету"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Прогресс % орнына оқылған беттерді көрсету"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Прогресс жолақтары орнына прогресті % ретінде көрсету"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Әрдайым максималды ұзындықтағы прогресс жолақтарын көрсету"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Тізімдерді көрсету"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Тапсырыс бойынша кітап статус экранды пайдалану"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Төменгі колонтитул"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Бума атауын құрылғы ақпаратымен ауыстыру"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Бет басқару элементтерін сол жақ бұрышта көрсету"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Кітапхана режимі"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Алдымен ашылған кітаптарды көрсету"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Кэш мәліметтер базасы"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Автоматты түрде жаңа кітаптар үшін бастау бумасын сканерлеу"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Кэшті тазарту"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Сіз жойылған кітаптардың кэшін тазартқыңыз келетініне сенімдісіз бе?\n"
+"(Бұл біраз уақыт алуы мүмкін.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Кэшті босату"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Сіз мұқаба мен мета ақпарат кэшін жойғыңыз келетініне сенімдісіз бе?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Кэш тазартылды."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Кэш көлемі"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Түйме экраны бар құрылғыларда соңғы элемент индикаторын көрсету"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Жоба: Атау параметрлері"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Кітап ақпаратын шығарып, кэштеу"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Кэштеудегі кітап ақпаратын жаңарту"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Мұқабаны елемеу"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Мұқабаны елемеу"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Метаақпаратты елемеу"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Метаақпаратты елемеу"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 және басқалар."

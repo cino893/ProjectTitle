@@ -1,0 +1,544 @@
+msgid ""
+msgstr ""
+"projecttitle/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Dự án: Tiêu đề"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Các chế độ hiển thị thay thế cho trình duyệt tệp và lịch sử."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Tiến độ"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Đang đọc"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Không có mô tả sách."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "không thể đọc bởi chương trình"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "quá nhiều lần gián đoạn hoặc treo máy"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Sách"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Không thể nén cơ sở dữ liệu: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Kích thước cơ sở dữ liệu bộ nhớ cache đã giảm từ %1 xuống %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Bộ nhớ cache rỗng. Không có gì để cắt bớt."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Đã xóa %1 / %2 mục khỏi bộ nhớ cache."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Việc này sẽ trích xuất siêu dữ liệu và hình ảnh bìa từ các cuốn sách trong "
+"thư mục hiện tại.\r\n"
+"Khi việc trích xuất bắt đầu, bạn có thể hủy bất cứ lúc nào bằng cách chạm "
+"vào màn hình.\r\n"
+"\r\n"
+"Việc trích xuất này có thể tốn thời gian và sử dụng một ít pin: bạn có thể "
+"muốn cắm sạc thiết bị của mình."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Có trích xuất thông tin sách từ các cuốn sách trong các thư mục con không?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Chỉ ở đây"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Ở đây và dưới"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Bạn có muốn làm mới siêu dữ liệu và hình ảnh bìa đã được trích xuất không?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Không làm mới"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Làm mới"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Nếu bạn đã xóa nhiều sách hoặc đã đổi tên một số thư mục, thì tốt nhất là "
+"xóa chúng khỏi cơ sở dữ liệu bộ nhớ cache.\r\n"
+"\r\n"
+"Bạn có muốn cắt bớt bộ nhớ cache của các sách đã bị xóa không?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Không cắt bớt"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Cắt bớt"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Bạn có muốn dừng lại không?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Tiếp tục lập chỉ mục"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Dừng lập chỉ mục"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Cắt bớt bộ nhớ cache của sách đã xóa"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Đang tìm sách để lập chỉ mục"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Không tìm thấy sách nào."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Tìm thấy 1 cuốn sách để lập chỉ mục."
+msgstr[1] "Tìm thấy %1 cuốn sách để lập chỉ mục."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Tìm thấy %1 cuốn sách.\n"
+"Đang tìm sách mới"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Không tìm thấy sách mới."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Lập chỉ mục %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Chạm vào bất kỳ đâu để dừng lại"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Đã xử lý %1 / %2 cuốn sách."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Đã trích xuất thành công một cuốn."
+msgstr[1] "Đã trích xuất thành công %1 cuốn."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Khi khởi động công việc trích xuất nền đã thất bại.\n"
+"Vui lòng khởi động lại KOReader hoặc thiết bị của bạn."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Dán"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Chọn"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Xóa"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Cắt"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Sao chép"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Mở bằng"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Đặt làm thư mục CHÍNH"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Tắt"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Trang chủ"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Thư viện"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Thư mục"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Sách"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Thư mục"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Đã hoàn thành"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Đang chờ"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Mới"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Trang %1 của %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 trang còn lại"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(không có thông tin sách: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(đã xóa)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Đã xảy ra lỗi khi đăng ký:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Phông chữ"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Không có sẵn"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Biểu tượng"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Không được hỗ trợ"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Phiên bản: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Danh sách bìa"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Lưới bìa"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Danh sách chi tiết"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Danh sách tên tệp"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Giảm số mục trên mỗi trang"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Tăng số mục trên mỗi trang"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Sử dụng chế độ này ở mọi nơi"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Chế độ hiển thị lịch sử"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Chế độ hiển thị bộ sưu tập"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Số mục trên mỗi trang"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Chế độ lưới bìa dọc"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Cột"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Hàng"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Chế độ lưới bìa ngang"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Chế độ danh sách"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Cài đặt nâng cao"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Hiển thị thư mục"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Tự động tạo hình ảnh bìa từ sách"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Hiển thị hình ảnh bìa được tự động tạo dưới dạng một chồng"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Chồng tên và chi tiết trong lưới bìa"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Hiển thị sách"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Hiển thị thông tin tệp thay vì số trang hoặc tiến độ %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Hiển thị số trang đã đọc thay vì tiến độ %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Hiển thị tiến độ % thay vì thanh tiến độ"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Luôn hiển thị các thanh tiến độ dài nhất"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Hiển thị chuỗi"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Sử dụng màn hình trạng thái sách tùy chỉnh"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Chân trang"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Thay thế tên thư mục bằng thông tin thiết bị"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Hiển thị điều khiển trang ở góc trái"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Chế độ thư viện"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Hiển thị sách đã mở trước"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Cơ sở dữ liệu bộ nhớ cache"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Tự động quét thư mục chính để tìm sách mới"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Cắt bớt bộ nhớ cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Bạn có chắc chắn rằng bạn muốn cắt bớt bộ nhớ cache của các sách đã xóa "
+"không?\n"
+"(Điều này có thể mất một lúc.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Làm rỗng bộ nhớ cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr ""
+"Bạn có chắc chắn rằng bạn muốn xóa bộ nhớ cache hình ảnh bìa và siêu dữ liệu "
+"không?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Bộ nhớ cache đã được làm rỗng."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Kích thước bộ nhớ cache"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Hiển thị chỉ báo mục cuối trên các thiết bị cảm ứng"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Cài đặt Dự án: Tiêu đề"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Trích xuất và lưu trữ thông tin sách"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Làm mới thông tin sách trong bộ nhớ cache"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Bỏ qua hình ảnh bìa"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Bỏ qua hình ảnh bìa"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Bỏ qua siêu dữ liệu"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Bỏ qua siêu dữ liệu"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 và các tác giả khác."

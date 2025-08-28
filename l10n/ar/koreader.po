@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"projecttitle/ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "المشروع: العنوان"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "طرق عرض بديلة لمتصفح الملفات والسجل."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "التقدم"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "الوصف"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "قراءة"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "لا توجد معلومات متاحة عن الكتاب."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "غير قابل للقراءة بواسطة المحرك"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "الكثير من الانقطاعات أو الأعطال"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "كتب"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "فشل ضغط قاعدة البيانات: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "تم تقليل حجم قاعدة بيانات الذاكرة المؤقتة من %1 إلى %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "ذاكرة التخزين المؤقتة فارغة. لا شيء للتنظيف."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "تمت إزالة %1 / %2 إدخالات من الذاكرة المؤقتة."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"سوف يقوم هذا باستخراج البيانات الوصفية وصور الأغلفة من الكتب في الدليل "
+"الحالي.\r\n"
+"بمجرد بدء الاستخراج، يمكنك إلغاء العملية في أي لحظة عن طريق النقر على الشاشة."
+"\r\n"
+"\r\n"
+"قد يستغرق هذا الاستخراج بعض الوقت ويستخدم بعض طاقة البطارية: قد ترغب في بقاء "
+"جهازك موصولاً."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "استمرار"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"هل تريد أيضًا استخراج معلومات الكتاب من الكتب في الدلائل الفرعية؟"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "هنا فقط"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "هنا والأسفل"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"هل ترغب في تحديث البيانات الوصفية والأغلفة التي تمت استخراجها مسبقًا؟"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "لا تُحدث"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "تحديث"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"إذا كنت قد أزلت العديد من الكتب، أو قمت بإعادة تسمية بعض الدلائل، من الجيد "
+"إزالتها من قاعدة البيانات الخاصة بالذاكرة المؤقتة.\r\n"
+"\r\n"
+"هل ترغب في تنظيف ذاكرة التخزين المؤقت للكتب المزالة؟"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "لا تقم بالتنظيف"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "تنظيف"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "هل ترغب في التوقف؟"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "استمرار الفهرسة"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "توقف عن الفهرسة"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "تنظيف ذاكرة التخزين المؤقت للكتب المزالة"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "البحث عن الكتب لفهرستها"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "لم يتم العثور على كتب."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "تم العثور على كتاب واحد لفهرسته."
+msgstr[1] "تم العثور على %1 كتب لفهرستها."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"تم العثور على %1 كتب.\n"
+"البحث عن كتب جديدة"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "لم يتم العثور على كتب جديدة."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"فهرسة %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "اضغط في أي مكان للتوقف"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "تمت معالجة %1 / %2 كتب."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "تم استخراج كتاب بنجاح."
+msgstr[1] "تم استخراج %1 كتب بنجاح."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"فشل بدء وظيفة الاستخراج في الخلفية.\n"
+"يرجى إعادة تشغيل KOReader أو جهازك."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "لصق"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "تحديد"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "إعادة تسمية"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "حذف"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "قص"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "نسخ"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "فتح باستخدام"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "تعيين كدليل رئيسي"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1إيقاف"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "الرئيسية"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "المكتبة"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "مجلد"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "كتاب"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "مجالات"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "منتهي"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "قيد الانتظار"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "جديد"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "الصفحة %1 من %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 صفحات متبقية"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(لا توجد معلومات عن الكتاب: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(تم الحذف)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "حدث خطأ أثناء التسجيل:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "خطوط"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "غير متاح"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "أيقونات"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~غير مدعوم"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "الإصدار: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "قائمة الأغلفة"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "شبكة الأغلفة"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "قائمة التفاصيل"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "قائمة أسماء الملفات"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "تخفيض العناصر في الصفحة"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "زيادة العناصر في الصفحة"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "استخدم هذا الوضع في كل مكان"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "وضع عرض السجل"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "وضع عرض المجموعات"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "العناصر في الصفحة"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "وضع شبكة الأغلفة بشكل عمودي"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "أعمدة"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "صفوف"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "وضع شبكة الأغلفة بشكل أفقي"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "أوضاع القوائم"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "الإعدادات المتقدمة"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "عرض المجلد"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "إنشاء صور الأغلفة تلقائيًا من الكتب"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "عرض صور الأغلفة المولدة تلقائيًا ككومة"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "تراكب الاسم والتفاصيل في شبكة الأغلفة"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "عرض الكتاب"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "عرض معلومات الملف بدلاً من الصفحات أو النسبة المئوية للتقدم"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "عرض الصفحات المقروءة بدلاً من النسبة المئوية للتقدم"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "عرض النسبة المئوية للتقدم بدلاً من شريط التقدم"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "عرض أقصى طول دائمًا لأشرطة التقدم"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "عرض السلاسل"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "استخدام شاشة حالة الكتاب مخصصة"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "تذييل"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "استبدال اسم المجلد بمعلومات الجهاز"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "إظهار عناصر التحكم في الصفحة في الزاوية اليسرى"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "وضع المكتبة"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "إظهار الكتب المفتوحة أولاً"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "قاعدة بيانات الذاكرة المؤقتة"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "فحص المجلد الرئيسي بحثًا عن كتب جديدة تلقائيًا"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "تنظيف الذاكرة المؤقتة"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"هل أنت متأكد أنك تريد تنظيف ذاكرة التخزين المؤقت للكتب المزالة؟\n"
+"(قد يستغرق ذلك بعض الوقت.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "تفريغ الذاكرة المؤقتة"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr ""
+"هل أنت متأكد أنك تريد حذف ذاكرة التخزين المؤقت للغلاف والبيانات الوصفية؟"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "تم تفريغ الذاكرة المؤقتة."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "حجم الذاكرة المؤقتة"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "إظهار مؤشر العنصر الأخير على الأجهزة التي تعمل باللمس"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "إعدادات المشروع: العنوان"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "استخراج ومخازن معلومات الكتاب"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "تحديث معلومات الكتب المخزنة"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "إلغاء تجاهل الغلاف"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "تجاهل الغلاف"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "إلغاء تجاهل البيانات الوصفية"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "تجاهل البيانات الوصفية"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 وآخرون."

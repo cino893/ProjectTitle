@@ -1,0 +1,420 @@
+msgid ""
+msgstr ""
+"projecttitle/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+msgid "Project: Title"
+msgstr "Projeto: Título"
+
+msgid "Alternative display modes for file browser and history."
+msgstr "Modos de exibição alternativos para navegador de arquivos e histórico."
+
+msgid "Progress"
+msgstr "Progresso"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Reading"
+msgstr "Lendo"
+
+msgid "%1%"
+msgstr "%1%"
+
+msgid "No book description available."
+msgstr "Nenhuma descrição do livro disponível."
+
+msgid "not readable by engine"
+msgstr "não legível pelo motor"
+
+msgid "too many interruptions or crashes"
+msgstr "muitas interrupções ou falhas"
+
+msgid "Books"
+msgstr "Livros"
+
+msgid "Failed compacting database: %1"
+msgstr "Falha ao compactar o banco de dados: %1"
+
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Tamanho do banco de dados de cache reduzido de %1 para %2."
+
+msgid "Cache is empty. Nothing to prune."
+msgstr "O cache está vazio. Nada a podar."
+
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Removidas %1 / %2 entradas do cache."
+
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Isto irá extrair metadados e capas de livros no diretório atual.\r\n"
+"Uma vez que a extração tenha começado, você pode abortar a qualquer momento "
+"tocando na tela.\r\n"
+"\r\n"
+"Esta extração pode levar tempo e consumir um pouco de bateria: é "
+"recomendável manter seu dispositivo conectado à energia."
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Também extrair informações de livros em subdiretórios?"
+
+msgid "Here only"
+msgstr "Somente aqui"
+
+msgid "Here and under"
+msgstr "Aqui e abaixo"
+
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Você quer atualizar metadados e capas que já foram extraídos?"
+
+msgid "Don't refresh"
+msgstr "Não atualizar"
+
+msgid "Refresh"
+msgstr "Atualizar"
+
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Se você removeu muitos livros ou renomeou alguns diretórios, é bom removê-"
+"los do banco de dados de cache.\r\n"
+"\r\n"
+"Você quer podar o cache dos livros removidos?"
+
+msgid "Don't prune"
+msgstr "Não podar"
+
+msgid "Prune"
+msgstr "Podar"
+
+msgid "Do you want to stop?"
+msgstr "Você quer parar?"
+
+msgid "Continue Indexing"
+msgstr "Continuar a Indexação"
+
+msgid "Stop Indexing"
+msgstr "Parar a Indexação"
+
+msgid "Pruning cache of removed books"
+msgstr "Podando o cache de livros removidos"
+
+msgid "Looking for books to index"
+msgstr "Procurando livros para indexar"
+
+msgid "No books were found."
+msgstr "Nenhum livro foi encontrado."
+
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Encontrado 1 livro para indexar."
+msgstr[1] "Encontrados %1 livros para indexar."
+
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Encontrados %1 livros.\n"
+"Procurando novos livros"
+
+msgid "No new books found."
+msgstr "Nenhum novo livro encontrado."
+
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indexando %1 / %2\n"
+"\n"
+"%3"
+
+msgid "Tap anywhere to stop"
+msgstr "Toque em qualquer lugar para parar"
+
+msgid "Processed %1 / %2 books."
+msgstr "Processados %1 / %2 livros."
+
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Um extraído com sucesso."
+msgstr[1] "%1 extraídos com sucesso."
+
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"A inicialização do trabalho de extração em segundo plano falhou.\n"
+"Por favor, reinicie o KOReader ou seu dispositivo."
+
+msgctxt "File"
+msgid "Paste"
+msgstr "Colar"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Cut"
+msgstr "Recortar"
+
+msgctxt "File"
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Open with"
+msgstr "Abrir com"
+
+msgid "Set as HOME folder"
+msgstr "Definir como pasta INICIAL"
+
+msgid "%1Off"
+msgstr "%1Desligado"
+
+msgid "Home"
+msgstr "Início"
+
+msgid "Library"
+msgstr "Biblioteca"
+
+msgid "Folder"
+msgstr "Pasta"
+
+msgid "Book"
+msgstr "Livro"
+
+msgid "Folders"
+msgstr "Pastas"
+
+msgid "Finished"
+msgstr "Concluído"
+
+msgid "On hold"
+msgstr "Em espera"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "Page %1 of %2"
+msgstr "Página %1 de %2"
+
+msgid "%1 pages left"
+msgstr "%1 páginas restantes"
+
+msgid "(no book information: %1)"
+msgstr "(sem informações do livro: %1)"
+
+msgid "(deleted)"
+msgstr "(excluído)"
+
+msgid "An error occurred while registering:"
+msgstr "Ocorreu um erro durante o registro:"
+
+msgid "Fonts"
+msgstr "Fontes"
+
+msgid "Not available"
+msgstr "Não disponível"
+
+msgid "Icons"
+msgstr "Ícones"
+
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Não suportado"
+
+msgid "Version: %1"
+msgstr "Versão: %1"
+
+msgid "Cover List"
+msgstr "Lista de Capas"
+
+msgid "Cover Grid"
+msgstr "Grade de Capas"
+
+msgid "Details List"
+msgstr "Lista de Detalhes"
+
+msgid "Filenames List"
+msgstr "Lista de Nomes de Arquivos"
+
+msgid "Decrease Items Per Page"
+msgstr "Diminuir Itens Por Página"
+
+msgid "Increase Items Per Page"
+msgstr "Aumentar Itens Por Página"
+
+msgid "Use this mode everywhere"
+msgstr "Usar este modo em todos os lugares"
+
+msgid "History display mode"
+msgstr "Modo de exibição de histórico"
+
+msgid "Collections display mode"
+msgstr "Modo de exibição de coleções"
+
+msgid "Items per page"
+msgstr "Itens por página"
+
+msgid "Portrait cover grid mode"
+msgstr "Modo de grade de capa retrato"
+
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+msgid "Columns"
+msgstr "Colunas"
+
+msgid "Rows"
+msgstr "Linhas"
+
+msgid "Landscape cover grid mode"
+msgstr "Modo de grade de capa paisagem"
+
+msgid "List modes"
+msgstr "Modos de lista"
+
+msgid ": %1"
+msgstr ": %1"
+
+msgid "Advanced settings"
+msgstr "Configurações avançadas"
+
+msgid "Folder display"
+msgstr "Exibição de pasta"
+
+msgid "Auto-generate cover images from books"
+msgstr "Gerar automaticamente imagens de capa a partir dos livros"
+
+msgid "Show auto-generated cover images as a stack"
+msgstr "Mostrar imagens de capa geradas automaticamente como uma pilha"
+
+msgid "Overlay name and details in cover grid"
+msgstr "Sobrepor nome e detalhes na grade de capa"
+
+msgid "Book display"
+msgstr "Exibição do livro"
+
+msgid "Show file info instead of pages or progress %"
+msgstr "Mostrar informações do arquivo em vez de páginas ou progresso %"
+
+msgid "Show pages read instead of progress %"
+msgstr "Mostrar páginas lidas em vez de progresso %"
+
+msgid "Show progress % instead of progress bars"
+msgstr "Mostrar progresso % em vez de barras de progresso"
+
+msgid "Always show maximum length progress bars"
+msgstr "Sempre mostrar barras de progresso no comprimento máximo"
+
+msgid "Show series"
+msgstr "Mostrar séries"
+
+msgid "Use custom book status screen"
+msgstr "Usar tela de status de livro personalizada"
+
+msgid "Footer"
+msgstr "Rodapé"
+
+msgid "Replace folder name with device info"
+msgstr "Substituir nome da pasta por informações do dispositivo"
+
+msgid "Show page controls in left corner"
+msgstr "Mostrar controles de página no canto esquerdo"
+
+msgid "Library mode"
+msgstr "Modo de Biblioteca"
+
+msgid "Show opened books first"
+msgstr "Mostrar livros abertos primeiro"
+
+msgid "Cache database"
+msgstr "Banco de dados de cache"
+
+msgid "Scan home folder for new books automatically"
+msgstr "Escanear automaticamente a pasta inicial em busca de novos livros"
+
+msgid "Prune cache"
+msgstr "Podar cache"
+
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Você tem certeza de que deseja podar o cache de livros removidos?\n"
+"(Isso pode levar um tempo.)"
+
+msgid "Empty cache"
+msgstr "Limpar cache"
+
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Você tem certeza de que deseja excluir o cache de capas e metadados?"
+
+msgid "Cache emptied."
+msgstr "Cache limpo."
+
+msgid "Cache size"
+msgstr "Tamanho do cache"
+
+msgid "Show last item indicator on touchscreen devices"
+msgstr ""
+"Mostrar indicador do último item em dispositivos com tela sensível ao toque"
+
+msgid "Project: Title settings"
+msgstr "Configurações do Projeto: Título"
+
+msgid "Extract and cache book information"
+msgstr "Extrair e armazenar informações do livro"
+
+msgid "Refresh cached book information"
+msgstr "Atualizar informações de livro em cache"
+
+msgid "Unignore cover"
+msgstr "Não ignorar capa"
+
+msgid "Ignore cover"
+msgstr "Ignorar capa"
+
+msgid "Unignore metadata"
+msgstr "Não ignorar metadados"
+
+msgid "Ignore metadata"
+msgstr "Ignorar metadados"
+
+msgid "%1 et al."
+msgstr "%1 et al."

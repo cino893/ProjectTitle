@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"projecttitle/gl/>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Proxecto: Título"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr ""
+"Modos de visualización alternativos para o navegador de ficheiros e a "
+"historia."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Progreso"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Descrición"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Lectura"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Non hai descrición dispoñible para o libro."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "non legible polo motor"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "demasiadas interrupcións ou bloqueos"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Libros"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Fallou a compactación da base de datos: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Tamaño da base de datos de caché reducido de %1 a %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "A caché está vacía. Nada que podar."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Elimináronse %1 / %2 entradas da caché."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Este proceso extraerá metadatos e imaxes de portada dos libros no directorio "
+"actual.\r\n"
+"Unha vez que comece a extracción, podes cancelar en calquera momento tocando "
+"na pantalla.\r\n"
+"\r\n"
+"Este proceso de extracción pode tardar e consumir algo de batería: podes "
+"querer manter o teu dispositivo enchufado."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Tamén extraer información dos libros en subdirectorios?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Só a aquí"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Aquí e abaixo"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Queres actualizar os metadatos e as portadas que xa foron extraídas?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Non actualizar"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Se eliminaches moitos libros ou renomeaches algún directorio, é recomendable "
+"eliminalos da base de datos de caché.\r\n"
+"\r\n"
+"Queres podar a caché dos libros eliminados?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Non podar"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Podar"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Queres parar?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Continuar indexando"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Parar indexando"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Podando caché dos libros eliminados"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Buscando libros para indexar"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Non se atoparon libros."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Atopouse 1 libro para indexar."
+msgstr[1] "Atopáronse %1 libros para indexar."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Atopáronse %1 libros.\n"
+"Buscando novos libros"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Non se atoparon novos libros."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indexando %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Toca en calquera lugar para parar"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Processáronse %1 / %2 libros."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Un extraído correctamente."
+msgstr[1] "%1 extraídos correctamente."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Fallou o inicio do traballo de extracción enBackground.\n"
+"Por favor, reinicia KOReader ou o teu dispositivo."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Pegar"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Seleccionar"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Renomear"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Cortar"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Abrir con"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Establecer como carpeta PRINCIPAL"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Desactivado"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Inicio"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Biblioteca"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Carpeta"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Libro"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Carpetas"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Terminado"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Pendentes"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Novo"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Páxina %1 de %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 páxinas restantes"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(sen información de libro: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(eliminado)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Produciuse un erro ao rexistrar:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Fontes"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Non dispoñible"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Icónes"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Non compatible"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Versión: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Lista de portadas"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Reixa de portadas"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Lista de detalles"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Lista de nomes de ficheiros"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Reducir elementos por páxina"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Aumentar elementos por páxina"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Usar este modo en todas partes"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Modo de visualización de historia"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Modo de visualización de coleccións"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Elementos por páxina"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Modo de reixa de portadas para retrato"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Columns"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Filas"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Modo de reixa de portadas paisaxísticas"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Modos de lista"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Configuracións avanzadas"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Visualización de carpetas"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Xerar automaticamente imaxes de portada dos libros"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Amosar imaxes de portada xeneradas automaticamente como unha pila"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Superpoñer nome e detalles na reixa de portadas"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Visualización de libros"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Amosar información do ficheiro en vez de páxinas ou progreso %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Amosar páxinas lidas en vez de progreso %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Amosar progreso % en vez de barras de progreso"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Sempre amosar barras de progreso de lonxitude máxima"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Amosar series"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Usar pantalla de estado do libro personalizada"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Rodapé"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Substituír o nome da carpeta pola información do dispositivo"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Amosar os controis de páxinas na esquina esquerda"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Modo biblioteca"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Amosar primeiro os libros abertos"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Base de datos de caché"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Escanear automaticamente a carpeta de inicio en busca de novos libros"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Podar caché"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Estás seguro de que queres podar a caché dos libros eliminados?\n"
+"(Isto pode tardar un tempo.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Caché baleira"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Estás seguro de que desexas eliminar a caché de portadas e metadatos?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Caché baleirada."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Tamaño da caché"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Amosar o indicador do último elemento en dispositivos táctiles"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Configuracións do proxecto: Título"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Extraer e gardar información dos libros"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Actualizar a información dos libros na caché"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Non ignorar a portada"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ignorar a portada"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Non ignorar os metadatos"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ignorar metadatos"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 et al."

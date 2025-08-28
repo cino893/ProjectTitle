@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"projecttitle/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "پروژه: عنوان"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "حالت‌های نمایشی جایگزین برای مرورگر فایل و تاریخچه."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "پیشرفت"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "توضیحات"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "در حال خواندن"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "هیچ توضیحی برای کتاب موجود نیست."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "قابل خواندن توسط موتور نیست"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "قطع‌های زیاد یا خرابی‌ها"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "کتاب‌ها"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "خطا در فشرده‌سازی پایگاه داده: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "اندازه پایگاه داده کش از %1 به %2 کاهش یافت."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "کش خالی است. چیزی برای حذف وجود ندارد."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "حذف %1 از %2 ورودی‌ها از کش."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"این عمل، متادیتا و تصاویر جلد کتاب‌ها را از دایرکتوری فعلی استخراج خواهد کرد."
+"\r\n"
+"پس از شروع استخراج، می‌توانید در هر لحظه با ضربه زدن روی صفحه، آن را متوقف "
+"کنید.\r\n"
+"\r\n"
+"این استخراج ممکن است زمان ببرد و مقداری انرژی باتری مصرف کند: بهتر است "
+"دستگاه خود را به برق متصل نگه دارید."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "لغو"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "ادامه"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"آیا می‌خواهید اطلاعات کتاب‌ها را از زیر دایرکتوری‌ها هم استخراج کنید؟"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "فقط در اینجا"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "اینجا و زیر آن"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"آیا می‌خواهید متادیتا و جلدهایی که قبلاً استخراج شده‌اند را به‌روزرسانی کنید؟"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "به‌روزرسانی نکنید"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "به‌روزرسانی"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"اگر کتاب‌های زیادی را حذف کرده‌اید یا برخی دایرکتوری‌ها را تغییر نام داده‌اید، "
+"خوب است که آن‌ها را از پایگاه داده کش حذف کنید.\r\n"
+"\r\n"
+"آیا می‌خواهید کش مربوط به کتاب‌های حذف شده را پاک کنید؟"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "حذف نکنید"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "حذف"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "آیا می‌خواهید متوقف کنید؟"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "ادامه ایندکس‌گذاری"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "متوقف کردن ایندکس‌گذاری"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "حذف کش کتاب‌های حذف شده"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "دنبال کتاب‌هایی برای ایندکس‌گذاری"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "هیچ کتابی پیدا نشد."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "یک کتاب برای ایندکس‌گذاری پیدا شد."
+msgstr[1] "%1 کتاب برای ایندکس‌گذاری پیدا شد."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+" %1 کتاب پیدا شد.\n"
+"دنبال کتاب‌های جدید"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "هیچ کتاب جدیدی پیدا نشد."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"ایندکس‌گذاری %1 از %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "برای توقف هر جا را لمس کنید"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "فرآیند %1 از %2 کتاب‌ها انجام شد."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "یک کتاب با موفقیت استخراج شد."
+msgstr[1] "%1 کتاب با موفقیت استخراج شد."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"شروع کار استخراج در پس‌زمینه با خطا مواجه شد.\n"
+"لطفاً KOReader یا دستگاه خود را دوباره راه‌اندازی کنید."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "چسباندن"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "انتخاب"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "حذف"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "برش"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "کپی"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "باز کردن با"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "تنظیم به عنوان پوشه اصلی"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1خاموش"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "خانه"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "کتابخانه"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "پوشه"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "کتاب"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "پوشه‌ها"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "تمام شد"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "در انتظار"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "جدید"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "صفحه %1 از %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 صفحه باقی مانده"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(هیچ اطلاعات کتابی: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(حذف شده)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "خطایی در حین ثبت‌نام رخ داده است:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "فونت‌ها"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "در دسترس نیست"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "آیکون‌ها"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~غیرقابل‌پشتیبانی"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "نسخه: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "فهرست جلدها"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "شبکه جلدها"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "فهرست جزئیات"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "فهرست نام‌فایل‌ها"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "کاهش تعداد اقلام در هر صفحه"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "افزایش تعداد اقلام در هر صفحه"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "استفاده از این حالت در همه جا"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "حالت نمایش تاریخچه"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "حالت نمایش مجموعه‌ها"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "اقلام در هر صفحه"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "حالت شبکه جلد عمودی"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "ردیف‌ها"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "حالت شبکه جلد افقی"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "حالت‌های فهرست"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "تنظیمات پیشرفته"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "نمایش پوشه"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "تولید خودکار تصاویر جلد از کتاب‌ها"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "نمایش تصاویر جلد خودکار به صورت یک پشته"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "نمایش نام و جزئیات در شبکه جلد"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "نمایش کتاب"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "نمایش اطلاعات فایل به جای صفحات یا میزان پیشرفت %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "نمایش صفحات خوانده شده به جای میزان پیشرفت %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "نمایش میزان پیشرفت % به جای نوارهای پیشرفت"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "همیشه نمایش نوارهای پیشرفت با حداکثر طول"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "نمایش مجموعه"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "استفاده از صفحه وضعیت کتاب سفارشی"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "پاورقی"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "جایگزین کردن نام پوشه با اطلاعات دستگاه"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "نمایش کنترل‌های صفحه در گوشه چپ"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "حالت کتابخانه"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "نمایش کتاب‌های باز شده در اولویت"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "پایگاه داده کش"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "اسکن پوشه اصلی برای کتاب‌های جدید به صورت خودکار"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "حذف کش"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید کش کتاب‌های حذف شده را پاک کنید؟\n"
+"(این ممکن است مدتی طول بکشد.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "کش خالی"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "آیا مطمئن هستید که می‌خواهید کش جلد و متادیتا را حذف کنید؟"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "کش خالی شد."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "اندازه کش"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "نمایش علامت آخرین مورد در دستگاه‌های لمسی"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "تنظیمات پروژه: عنوان"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "استخراج و ذخیره‌سازی اطلاعات کتاب"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "به‌روزرسانی اطلاعات کتاب ذخیره‌شده"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "نادیده‌گرفتن جلد"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "نادیده‌گرفتن جلد"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "نادیده‌گرفتن متادیتا"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "نادیده‌گرفتن متادیتا"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 و همکاران."

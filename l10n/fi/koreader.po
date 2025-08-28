@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"projecttitle/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekti: Otsikko"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Vaihtoehtoiset näyttötavat tiedostohallintaan ja historiaan."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Edistyminen"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Lukeminen"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Ei kirjan kuvausta saatavilla."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "moottorin lukematon"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "liikaa keskeytyksiä tai kaatumisia"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Kirjat"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Tietokannan pakkaaminen epäonnistui: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Välimuistin tietokannan koko pienennettiin %1 -> %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Välimuisti on tyhjö. Ei leikattavaa."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Poistettiin %1 / %2 merkintää välimuistista."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Tämä poistaa metatietoja ja kansikuvia kirjoista nykyisessä kansiossa.\r\n"
+"Kun poisto on aloitettu, voit keskeyttää sen milloin tahansa napauttamalla "
+"näyttöä.\r\n"
+"\r\n"
+"Tämä prosessi saattaa kestää aikaa ja kuluttaa akkua: saatat haluta pitää "
+"laitteen kytkettynä."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Jatka"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Poistetaanko myös kirjatiedot alikansioissa olevista kirjoista?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Vain tässä"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Tässä ja alapuolella"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Halutaanko käynnistää uudelleen jo poistettujen metatietojen ja kansikuvien "
+"päivitys?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Älä päivitä"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Jos olet poistanut monta kirjaa tai muuttanut joitain kansioita, on hyvä "
+"poistaa ne välimuistista.\r\n"
+"\r\n"
+"Halutaanko leikata poistettujen kirjojen välimuisti?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Älä leikkaa"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Leikkaa"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Haluatko lopettaa?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Jatka indeksointia"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Lopeta indeksointi"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Poistettujen kirjojen välimuistin leikkaaminen"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Etsitään indeksöitäviä kirjoja"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Ei kirjoja löytynyt."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Löydettiin 1 kirja indeksöitäväksi."
+msgstr[1] "Löydettiin %1 kirjaa indeksöitäväksi."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Löydetty %1 kirjaa.\n"
+"Etsitään uusia kirjoja"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Ei uusia kirjoja löytynyt."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indeksoidaan %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Napauta mihin tahansa keskeyttääksesi"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Käsitelty %1 / %2 kirjaa."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Yksi poistettiin onnistuneesti."
+msgstr[1] "%1 poistettiin onnistuneesti."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Taustaprosessin käynnistys epäonnistui.\n"
+"Yritä käynnistää KOReader tai laitteesi uudelleen."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Liitä"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Valitse"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Poista"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Leikkaa"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopioi"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Avaa"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Aseta KOTIkansioksi"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Pois"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Koti"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Kirjasto"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Kansio"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Kirja"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Kansiot"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Valmis"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Pysäytetty"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Uusi"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Sivu %1 / %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 sivua jäljellä"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(ei kirjatietoja: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(poistettu)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Ilmeni virhe rekisteröinnissä:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Fontit"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Ei saatavilla"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikonit"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Ei tuettu"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Versio: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Kansilista"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Kansiverkko"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Tietolistaus"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Tiedostonimien lista"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Vähennä kohteita per sivu"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Lisää kohteita per sivu"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Käytä tätä tilaa kaikkialla"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Historia-näyttötila"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Kokoelma-näyttötila"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Kohteita per sivu"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Pystysuuntainen kansiverkko"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Sarakkeet"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Rivit"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Vaakasuunta kansiverkko"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Luettelo-tilat"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Lisäasetukset"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Kansion näyttö"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Auto-generate kansikuvia kirjoista"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Näytä automaattisesti luodut kansikuvat pakan muodossa"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Kansitieto ja yksityiskohdat päällystetään kansiverkkoon"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Kirjan näyttö"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr ""
+"Näytä tiedot tiedostosta sen sijaan, että näyttäisit sivuja tai edistymistä %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Näytä luetut sivut sen sijaan, että näyttäisit edistymistä %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Näytä edistyminen % edistymispalkkien sijaan"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Näytä aina maksimitaso edistymispalkit"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Näytä sarjat"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Käytä mukautettua kirjan tilan näyttöä"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Korvaa kansion nimi laitteen tiedoilla"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Näytä sivun ohjaus vasemmassa yläkulmassa"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Kirjastotila"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Näytä ensin avatut kirjat"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Välimuistin tietokanta"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Skannaa kotikansio uusien kirjojen löytymiseksi automaattisesti"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Leikkaa välimuisti"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Oletko varma, että haluat leikata poistettujen kirjojen välimuisti?\n"
+"(Tämä saattaa kestää hetken.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Tyhjennä välimuisti"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Oletko varma, että haluat poistaa kansi- ja metatietovälimuistin?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Välimuisti tyhjennetty."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Välimuistin koko"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Näytä viimeinen kohde -ilmaisin kosketusnäytöllä"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Projekti: Otsikko asetukset"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Poista ja välimuistitiedot kirjan tiedot"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Päivitä välimuistitiedot kirjan tiedoista"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Älä ohita kansi"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ohita kansi"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Älä ohita metatietoja"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ohita metatiedot"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 ym."

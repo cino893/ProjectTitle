@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"projecttitle/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "प्रोजेक्ट: शीर्षक"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "फाइल ब्राउजर और इतिहास के लिए वैकल्पिक प्रदर्शन मोड।"
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "प्रगति"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "विवरण"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "पढ़ाई"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "कोई पुस्तक विवरण उपलब्ध नहीं है।"
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "इंजन द्वारा पढ़ा नहीं जा सकता"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "बहुत अधिक व्यवधान या क्रैश"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "पुस्तकें"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "डेटाबेस संकुचन में विफल: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "कैश डेटाबेस का आकार %1 से %2 में घटा।"
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "कैश खाली है। छंटाई के लिए कुछ नहीं है।"
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "कैश से %1 / %2 प्रविष्टियाँ हटाई गईं।"
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"यह वर्तमान निर्देशिका में पुस्तकों से मेटाडेटा और कवर छवियों को निकालेगा।\r\n"
+"एक बार जब अनुदेश निकासी शुरू हो जाता है, तो आप स्क्रीन पर टैप करके किसी भी समय रद्द कर "
+"सकते हैं।\r\n"
+"\r\n"
+"यह निकासी समय ले सकती है और कुछ बैटरी पावर का उपयोग कर सकती है: आपको अपने डिवाइस "
+"को प्लग में रखना चाहिए।"
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "जारी रखें"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"क्या आप उपनिर्देशिकाओं की पुस्तकों से भी पुस्तक जानकारी निकालना चाहते हैं?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "यहां केवल"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "यहां और नीचे"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"क्या आप पहले से निकाली गई मेटाडेटा और कवर को ताज़ा करना चाहते हैं?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "ताज़ा न करें"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "ताज़ा करें"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"यदि आपने कई पुस्तकें हटा दी हैं, या कुछ निर्देशिकाओं का नाम बदल दिया है, तो उन्हें कैश डेटाबेस "
+"से हटाना अच्छा है।\r\n"
+"\r\n"
+"क्या आप हटाई गई पुस्तकों का कैश छंटाई करना चाहते हैं?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "छंटाई न करें"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "छंटाई करें"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "क्या आप बंद करना चाहते हैं?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "इंडेक्सिंग जारी रखें"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "इंडेक्सिंग बंद करें"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "हटाई गई पुस्तकों का कैश छंटाई"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "इंडेक्स करने के लिए पुस्तकों की खोज"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "कोई पुस्तक नहीं मिली।"
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "इंडेक्स के लिए 1 पुस्तक मिली।"
+msgstr[1] "इंडेक्स के लिए %1 पुस्तकें मिलीं।"
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+" %1 पुस्तकें मिलीं।\n"
+"नई पुस्तकों की खोज।"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "कोई नई पुस्तकें नहीं मिलीं।"
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"इंडेक्सिंग %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "रोकने के लिए कहीं भी टैप करें"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "%1 / %2 पुस्तकों को संसाधित किया।"
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "एक सफलतापूर्वक निकाली गई।"
+msgstr[1] "%1 सफलतापूर्वक निकाली गईं।"
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"पृष्ठभूमि निकासी कार्य का प्रारंभ विफल हो गया।\n"
+"कृपया KOReader या अपने उपकरण को पुनः चालू करें।"
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "चिपकाएँ"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "चुनें"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "नाम बदलें"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "काटें"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "कॉपी करें"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "के साथ खोलें"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "होम फ़ोल्डर के रूप में सेट करें"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1बंद"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "होम"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "पुस्तकालय"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "फ़ोल्डर"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "पुस्तक"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "फ़ोल्डर"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "सम्पन्न"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "धारण पर"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "नया"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "पृष्ठ %1 का %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 पृष्ठ शेष हैं"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(कोई पुस्तक जानकारी नहीं: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(डिलीट कर दिया गया)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "पंजीकरण के दौरान एक त्रुटि हुई:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "फॉन्ट"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "उपलब्ध नहीं"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "आइकन"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~असमर्थित"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "संस्करण: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "कवर सूची"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "कवर ग्रिड"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "विवरण सूची"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "फाइलनाम सूची"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "प्रत्येक पृष्ठ में आइटम कम करें"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "प्रत्येक पृष्ठ में आइटम बढ़ाएँ"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "हर जगह इस मोड का उपयोग करें"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "इतिहास प्रदर्शन मोड"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "संग्रह प्रदर्शन मोड"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "प्रति पृष्ठ आइटम"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "पोर्ट्रेट कवर ग्रिड मोड"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "स्तम्भ"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "पंक्तियाँ"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "लैंडस्केप कवर ग्रिड मोड"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "सूची मोड"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "उन्नत सेटिंग्स"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "फ़ोल्डर प्रदर्शन"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "पुस्तकों से ऑटो-जनरेट कवर चित्र"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "ऑटो-जनरेट कवर चित्र को एक स्टैक के रूप में दिखाएँ"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "कवर ग्रिड में नाम और विवरण ओवरले करें"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "पुस्तक प्रदर्शन"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "पृष्ठों या प्रगति % के बजाय फ़ाइल जानकारी दिखाएँ"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "प्रगति % के बजाय पढ़े गए पृष्ठ दिखाएँ"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "प्रगति बार के बजाय प्रगति % दिखाएँ"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "सदा अधिकतम लंबाई की प्रगति बार दिखाएँ"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "श्रृंखला दिखाएँ"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "कस्टम पुस्तक स्थिति स्क्रीन का उपयोग करें"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "फुटर"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "फोल्डर नाम को डिवाइस जानकारी से बदलें"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "बाएं कोने में पृष्ठ नियंत्रण दिखाएँ"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "पुस्तकालय मोड"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "पहले खोली गई पुस्तकें दिखाएँ"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "कैश डेटाबेस"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "नए पुस्तकों के लिए होम फोल्डर को स्वचालित रूप से स्कैन करें"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "कैश छंटाई"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"क्या आप निश्चित हैं कि आप हटाई गई पुस्तकों का कैश छंटाई करना चाहते हैं?\n"
+"(इसमें थोड़ा समय लग सकता है।)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "कैश खाली करें"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "क्या आप निश्चित हैं कि आप कवर और मेटाडेटा कैश हटाना चाहते हैं?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "कैश खाली किया गया।"
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "कैश आकार"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "टचस्क्रीन उपकरणों पर अंतिम आइटम संकेतक दिखाएँ"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "प्रोजेक्ट: शीर्षक सेटिंग्स"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "पुस्तक जानकारी को निकाले और कैश करें"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "कैश की गई पुस्तक जानकारी को ताज़ा करें"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "कवर को अनउपदेशित करें"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "कवर को उपदेशित करें"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "मेटाडेटा को अनउपदेशित करें"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "मेटाडेटा को उपदेशित करें"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 आदि।"

@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"projecttitle/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "პროექტი: სათაური"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "ფაილების ბრაუზერის და ისტორიის ალტერნატიული ხედიები."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "პროცესი"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "აღწერა"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "კითხვა"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "წიგნის აღწერა არ არის ხელმისაწვდელი."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "მეცნიერებისთვის ვერ ჩაიკითხება"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "მეტმა შეწყვეტამ ან კრაშებმა"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "წიგნები"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "დანიშნულებმა ბაზა ვერ შედგა: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "კეში ბაზის ზომა შემცირდა %1-დან %2-მდე."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "კეში ცარიელია. არაფერი არ უნდა მოიჭრას."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "კეშიდან ამოიღო %1 / %2 ჩანაწერი."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"ეს გამოიტანს მეტა მონაცემებს და ყდა სურათები მიმდინარე დირექტორიის "
+"წიგნებიდან.\r\n"
+"როდესაც გამომოწერა დაიწყება, ნებისმიერ მომენტში შეგიძლიათ შეწყვიტოთ ეკრანზე "
+"დაწკაპებით.\r\n"
+"\r\n"
+"ეს გამომოწერა შეიძლება ცოტა ხანი გაგრძელდეს და ცოტა ენერგიის ფაქტურა: "
+"გინახავთ, რომ თქვენი მოწყობილობა ჩართული ქონდეს."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "გაგრძელება"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"გსურთ ასევე გამოიტანოთ წიგნის ინფორმაცია სუბდირექტორიებში მდებარე "
+"წიგნებისგან?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "ამ ადგილზე მხოლოდ"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "აქ და ქვემოთ"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"გსურთ რეესტრირებული მეტა მონაცემები და ყდები რეფრეშება?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "არ გაახლებოთ"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "განაახლეთ"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"თუ ბევრი წიგნი ამოიღეთ, ან ზოგიერთი დირჩორეი renamed, კარგია, რომ მოიშვებთ "
+"მათ კეშის ბაზიდან.\r\n"
+"\r\n"
+"გსურთ დაითხოვოთ ამოღებულ წიგნების კეში?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "არ მოიჭრას"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "მოიჭრე"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "გსურთ შეწყვიტოთ?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "გაგრძელეთ ინდექსი"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "თქვენთან შეწყვიტეთ ინდექსი"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "ამოღებული წიგნების კეშის მოჭრა"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "წიგნების ძებნა ინდექსირებისათვის"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "წიგნები ვერ მოიძებნა."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "აპოვნია 1 წიგნი ინდექსირებისთვის."
+msgstr[1] "აპოვნილია %1 წიგნები ინდექსირებისთვის."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"აპოვნილია %1 წიგნი.\n"
+"ახალი წიგნების ძებნა"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "ახალი წიგნები არ მოიძებნა."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"ინდექსირება %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "აწკაპეთ ნებისმიერ ადგილს, რათა შეაჩეროთ"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "მოსამუშაო %1 / %2 წიგნები."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "ერთ-ერთი წარმატებით არის გამოტანილი."
+msgstr[1] "%1 წარმატებით არის გამოტანილი."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"ფონდის გამომოწერის სამუშაოს დაწყება ვერ შესრულდა.\n"
+"გთხოვთ გადააწყოთ KOReader ან თქვენი მოწყობილობა."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "ჩასმა"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "შერჩევა"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "გადარქმნა"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "წაშლა"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "მოჭრა"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "კოპირება"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "შეხედეთ"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "გამოიყურეთ როგორც მთავარი დირექტორია"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1აქ"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "სახლი"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "ფოლდერი"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "წიგნი"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "ფოლდერები"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "დასრულებულია"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "ბაზაზე"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "ახალი"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "გვერდი %1/%2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 გვერდი დარჩა"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(წიგნის ინფორმაცია არ არის: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(წაშლილია)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "რეგისტრაციის დროს მოხდა შეცდომა:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "ფონტები"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "არ არის ხელმისაწვდელი"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "იკონები"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~გაუმჭვირვალე"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "ვერსია: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "ყდის სია"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "ყდის ნახაზები"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "დეტალების სია"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "ფაილების სია"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "ნივთების რაოდენობის შემცირება გვერდზე"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "ნივთების რაოდენობის გაზრდა გვერდზე"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "გამოიყენეთ ეს რეჟიმი ყველგან"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "ისტორიის ხედი"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "კოლექციების ხედი"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "ნივთები გვერდზე"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "პორტრეტის ყდის ნახაზების რეჟიმი"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "სვეტები"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "მხარეები"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "ლანდშაფტური ყდის ნახაზების რეჟიმი"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "სიის რეჟიმები"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "განახლებული პარამეტრები"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "ფოლდერის ხედი"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "ავტომატური ყდის სურათების გენერირება წიგნებიდან"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "ავტომატურად გენერირებული ყდის სურათების ჩვენება სტადზე"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "დაფაროს სახელი და დეტალები ყდის ნახაზში"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "წიგნის ხედი"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "მოცემეთ ფაილის ინფორმაცია გვერდების ან პროგრესის ნაცვლად %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "მოზიარეთ კითხვა გვერდთა ნაცვლად პროგრესში %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "ჩვენება პროგრესში % ნაცვლად პროგრეს ბარების"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "უდიდეს სიგრძის პროგრეს ბარები ყოველთვის უნდა ვაჩვენოთ"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "შეხედეთ სერიებს"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "გამოიყენეთ პერსონალური წიგნის სტატუსის ეკრანი"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "შიდა მუხლი"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "ფოლდერის სახელის ჩანაცვლება მოწყობილობის ინფორმაციით"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "გვერდის კონტროლების ჩვენება მჯიღში"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "ბიბლიოთეკის რეჟიმი"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "პირველ ადგილზე გაწვდილი წიგნები ვაჩვენოთ"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "კეში ბაზა"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "ახალი წიგნებისთვის მთავარ ფოლდერში სკანირება ავტომატურად"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "კეშის მოჭრა"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"დარწმუნებული ხართ, რომ გსურთ ამოღებული წიგნების კეშის მოჭრა?\n"
+"(ეს შეიძლება ცოტა ხანს dauern.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "ცარიელი კაში"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ტვირთის და მეტა მონაცემების კეშის წაშლა?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "კეში ცარიელია."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "კეშის ზომა"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "შეხვდეთ ბოლო ელემენტის მარკერი სენსორულ მოწყობილობებზე"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "პროექტი: სათაური პარამეტრები"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "წიგნის ინფორმაციის გამომოწერა და შენახვა"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "განაახლეთ კეშირებული წიგნის ინფორმაცია"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "ყდის გამოჩენა"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "ყდის იგნორირება"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "მეტა მონაცემების გამოჩენა"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "მეტა მონაცემების იგნორირება"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 და სხვები."

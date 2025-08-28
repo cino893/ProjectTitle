@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"projecttitle/bg_BG/>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Проект: Заглавие"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Алтернативни режими на показване за файловия браузър и историята."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Напредък"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Описание"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Четене"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Няма налично описание на книгата."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "нечитаема от системата"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "твърде много прекъсвания или сривове"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Книги"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Неуспешно компресиране на базата данни: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Размерът на кеша е намален от %1 на %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Кешът е празен. Няма какво да се изчисти."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Премахнати %1 / %2 записа от кеша."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Това ще извлече метаданни и изображения на корици от книги в текущата "
+"директория.\r\n"
+"След като извличането започне, можете да го прекъснете по всяко време, като "
+"натиснете на екрана.\r\n"
+"\r\n"
+"Тази операция може да отнеме време и да изразходва енергия: препоръчваме ви "
+"да държите устройството включено в зарядно."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Отказ"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Продължи"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Също така да извлечете информация за книги от книги в подпапки?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Само тук"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Тук и под"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Искате ли да обновите метаданни и корици, които вече са били извлечени?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Не обновявай"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Обнови"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Если сте премахнали много книги или сте променили имената на някои "
+"директории, добре е да ги премахнете от кеша.\r\n"
+"\r\n"
+"Искате ли да изчистите кеша на премахнатите книги?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Не изчиствай"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Изчисти"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Искате ли да спрете?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Продължи индексирането"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Спри индексирането"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Изчистване на кеша на премахнатите книги"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Търсене на книги за индексиране"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Няма намерени книги."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Намерена 1 книга за индексиране."
+msgstr[1] "Намерени %1 книги за индексиране."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Намерени са %1 книги.\n"
+"Търсене на нови книги"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Няма намерени нови книги."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Индексиране на %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Докоснете навсякъде, за да спрете"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Обработени %1 / %2 книги."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Една успешно извлечена."
+msgstr[1] "%1 успешно извлечени."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Стартирането на фоновото извличане на данни не успя.\n"
+"Моля, рестартирайте KOReader или вашето устройство."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Постави"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Избери"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Преименувай"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Изтрий"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Изрежи"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Копирай"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Отвори с"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Задай като основна папка"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Изключено"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Начало"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Библиотека"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Папка"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Книга"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Папки"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Завършено"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "В изчакване"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Ново"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Страница %1 от %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 страници остават"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(няма информация за книгата: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(изтрито)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Възникна грешка при регистрацията:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Шрифтове"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Неналичен"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Икони"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Неподдържан"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Версия: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Списък с корици"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Мрежа с корици"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Списък с детайли"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Списък с имена на файлове"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Намали елементите на страница"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Увеличи елементите на страница"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Използвай този режим навсякъде"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Режим на показване на историята"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Режим на показване на колекции"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Елементи на страница"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Режим на мрежа с корици - портрет"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Колони"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Редове"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Режим на мрежа с корици - пейзаж"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Режими на списък"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Разширени настройки"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Показване на папки"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Автоматично генериране на изображения на корици от книги"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Показвай автоматично генерирани изображения на корици като стек"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Наложи име и детайли в мрежата с корици"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Показване на книги"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Показвай информация за файлове вместо страници или напредък %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Показвай прочетените страници вместо процента на напредък"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Показвай процент на напредък вместо ленти за напредък"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Винаги показвай ленти за напредък с максимална дължина"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Показвай серии"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Използвай персонализиран екран за статус на книги"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Футер"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Замести името на папката с информация за устройството"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Показвай контроли за страници в левия ъгъл"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Режим на библиотеката"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Показвай първо отворените книги"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Кеш база данни"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Автоматично сканирайте основната папка за нови книги"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Изчисти кеша"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Сигурни ли сте, че искате да изчистите кеша на премахнатите книги?\n"
+"(Това може да отнеме време.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Изпразни кеша"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Сигурни ли сте, че искате да изтриете кеша на корици и метаданни?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Кешът е изпразнен."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Размер на кеша"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Показвай индикатор за последен елемент на устройства с тъчскрийн"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Настройки на проекта: Заглавие"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Извличай и кеширай информация за книги"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Обнови кешираната информация за книги"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Не игнорирай корицата"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Игнорирай корицата"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Не игнорирай метаданните"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Игнорирай метаданните"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 и др."

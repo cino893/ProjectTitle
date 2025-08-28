@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"projecttitle/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Proiect: Titlu"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Moduri alternative de afișare pentru browser-ul de fișiere și istoric."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Progres"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Descriere"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Citire"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Nicio descriere a cărții disponibilă."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "nu este citibil de motor"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "prea multe întreruperi sau blocări"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Cărți"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Compacția bazei de date a eșuat: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Dimensiunea bazei de date a cache-ului a fost redusă de la %1 la %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Cache-ul este gol. Nimic de curățat."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Au fost eliminate %1 / %2 intrări din cache."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Asta va extrage metadate și imagini de copertă din cărțile din directorul "
+"curent.\r\n"
+"Odată ce extragerea a început, poți renunța în orice moment atingând ecranul."
+"\r\n"
+"\r\n"
+"Această extragere poate dura ceva timp și va folosi o parte din energie: ar "
+"fi bine să ţii dispozitivul conectat la priză."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Continuă"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Extragem de asemenea informațiile despre cărți din subdirectoare?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Aici doar"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Aici și sub"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Vrei să reîmprospătezi metadatele și coperțile care au fost deja extrase?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Nu reîmprospăta"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Reîmprospătează"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Dacă ai eliminat multe cărți sau ai redenumit unele directoare, este bine să "
+"le elimini din baza de date a cache-ului.\r\n"
+"\r\n"
+"Vrei să cureți cache-ul cărților eliminate?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Nu curăța"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Curăță"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Vrei să oprești?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Continuă indexarea"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Oprește indexarea"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Curățarea cache-ului cărților eliminate"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Căutând cărți de indexat"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Nicio carte nu a fost găsită."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Am găsit 1 carte de indexat."
+msgstr[1] "Am găsit %1 cărți de indexat."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Am găsit %1 cărți.\n"
+"Căutând cărți noi"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Nicio carte nouă găsită."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indexare %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Atinge oriunde pentru a opri"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Prelucrate %1 / %2 cărți."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Una a fost extrasă cu succes."
+msgstr[1] "%1 au fost extrase cu succes."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Pornirea lucrării de extragere de fundal a eșuat.\n"
+"Te rugăm să repornești KOReader sau dispozitivul tău."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Lipire"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Selectează"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Renumește"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Șterge"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Creează"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Copiază"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Deschide cu"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Setează ca folder ACASĂ"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Dezactivat"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Acasă"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Bibliotecă"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Folder"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Carte"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Foldere"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Finalizat"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "În așteptare"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Nou"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Pagina %1 din %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 pagini rămase"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(fără informații despre carte: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(șters)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "A apărut o eroare la înregistrare:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Fonturi"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Nedisponibil"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Icoane"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Nesusținut"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Versiune: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Lista Coperților"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Grilă Copertă"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Lista Detaliilor"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Lista Numele Fișierelor"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Reducerea Articolelor Pe Pagină"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Creșterea Articolelor Pe Pagină"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Folosește acest mod peste tot"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Mod de afișare a istoricului"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Mod de afișare a colecțiilor"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Articole pe pagină"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Mod grilă copertă portret"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Coloane"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Rânduri"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Mod grilă copertă peisaj"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Moduri de listare"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Setări avansate"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Afișare folder"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Generare automată a imaginilor de copertă din cărți"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Afișează imaginile de copertă generate automat ca un stivă"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Suprapune numele și detaliile în grila de copertă"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Afișare carte"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Afișează informații despre fișier în loc de pagini sau progres %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Afișează paginile citite în loc de progres %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Afișează progres % în loc de bare de progres"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Afișează întotdeauna bare de progres de lungime maximă"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Afișează serii"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Folosește un ecran personalizat pentru starea cărții"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Subsol"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Înlocuiește numele folderului cu informațiile dispozitivului"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Afișează controalele paginii în colțul din stânga"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Mod bibliotecă"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Afișează mai întâi cărțile deschise"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Baza de date cache"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Scanează folderul acasă pentru cărți noi automat"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Curăță cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Îți dai seama că vrei să cureți cache-ul cărților eliminate?\n"
+"(Aceasta poate dura puțin.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Golire cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr ""
+"Ești sigur că vrei să ștergi cache-ul imaginilor de copertă și al "
+"metadatelor?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Cache-ul a fost golit."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Dimensiunea cache-ului"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Afișează indicatorul pentru ultimul articol pe dispozitive tactile"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Proiect: Setări titlu"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Extrage și cachează informațiile despre cărți"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Reîmprospătează informațiile despre cărți cache"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Nu ignora coperta"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ignoră coperta"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Nu ignora metadatele"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ignoră metadatele"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 și alții."

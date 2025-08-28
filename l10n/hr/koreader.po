@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"projecttitle/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekt: Naslov"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Alternativni prikazi za preglednik datoteka i povijest."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Napredak"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Opis"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Čitanje"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Nema dostupnog opisa knjige."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "nije čitljivo od strane motora"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "previše prekida ili pada"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Knjige"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Neuspješno komprimiranje baze podataka: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Veličina pohrane baze podataka smanjena sa %1 na %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Cache je prazan. Nema što očistiti."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Uklonjena %1 / %2 stavki iz cache-a."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Ovo će izdvojiti metapodatke i slike omota iz knjiga u trenutnom direktoriju."
+"\r\n"
+"Kada proces izvlačenja započne, možete ga prekinuti u bilo trenutku dodirom "
+"na zaslon.\r\n"
+"\r\n"
+"Ovo izdvajanje može trajati i koristiti energiju baterije: možda biste "
+"trebali držati svoj uređaj priključenim."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Nastavi"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Trebate li također izvući informacije o knjigama iz knjiga u "
+"poddirektorijima?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Samo ovdje"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Ovdje i ispod"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Želite li osvježiti metapodatke i omote koji su već izdvojeni?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Ne osvježavaj"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Ako ste uklonili mnogo knjiga ili preimenovali neke direktorije, dobro je "
+"ukloniti ih iz baze podataka cache-a.\r\n"
+"\r\n"
+"Trebate li očistiti cache uklonjenih knjiga?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Ne čisti"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Očisti"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Želite li stati?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Nastavi indeksiranje"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Zaustavi indeksiranje"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Čišćenje cache-a uklonjenih knjiga"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Traženje knjiga za indeksiranje"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Nema pronađenih knjiga."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Pronađena 1 knjiga za indeksiranje."
+msgstr[1] "Pronađeno %1 knjiga za indeksiranje."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Pronađene su %1 knjige.\n"
+"Traženje novih knjiga"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Nema novih knjiga."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indeksiranje %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Dodirnite bilo gdje zaustavljanje"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Obrađeno %1 / %2 knjiga."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Jedna uspješno izdvojena."
+msgstr[1] "%1 uspješno izdvojeno."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Pokretanje zadatka za pozadinsko izdvajanje nije uspjelo.\n"
+"Molimo ponovo pokrenite KOReader ili vaš uređaj."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Zalijepi"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Odaberi"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Izbriši"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Izreži"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Otvori s"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Postavi kao POČETNI direktorij"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Isključeno"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Početna"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Biblioteka"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Mapa"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Knjiga"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Mape"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Završeno"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Na čekanju"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Novo"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Stranica %1 od %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 stranica preostalo"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(nema informacija o knjizi: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(izbrisano)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Došlo je do pogreške prilikom registracije:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Fontovi"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Nema dostupno"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikone"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Nema podršku"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Verzija: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Popis omota"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Mreža omota"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Popis detalja"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Popis imena datoteka"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Smanji stavke po stranici"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Povećaj stavke po stranici"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Koristi ovaj način posvuda"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Način prikaza povijesti"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Način prikaza kolekcija"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Stavke po stranici"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Način prikaza omota u portretu"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Kolone"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Redovi"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Način prikaza omota u pejzažu"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Načini popisa"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Napredne postavke"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Prikaz mapa"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Automatski generiraj slike omota iz knjiga"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Prikaži automatski generirane slike omota kao hrpu"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Prekrije ime i detalje u mreži omota"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Prikaz knjiga"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Prikaži informacije o datoteci umjesto stranica ili napretka %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Prikaži pročitane stranice umjesto napretka %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Prikaži napredak % umjesto traka napretka"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Uvijek prikazuj trake napretka maksimalne duljine"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Prikaži serije"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Koristi prilagođeni ekran statusa knjige"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Podnožje"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Zamijeni naziv mape s informacijama o uređaju"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Prikaži kontrolu stranica u lijevom kutu"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Način biblioteke"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Prikaži otvorene knjige prvo"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Baza podataka cache-a"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Automatski skeniraj početnu mapu za nove knjige"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Očisti cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Jeste li sigurni da želite očistiti cache uklonjenih knjiga?\n"
+"(Ovo može potrajati.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Prazni cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Jeste li sigurni da želite izbrisati cache omota i metapodataka?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Cache je ispraznjen."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Veličina cache-a"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Prikaži indikatore zadnje stavke na dodirnim uređajima"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Postavke projekta: Naslov"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Izvuci i pohrani informacije o knjigama"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Osvježi pohranjene informacije o knjigama"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Ponovno ukloni ignoriranje omota"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ignoriraj omot"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Ponovno ukloni ignoriranje metapodataka"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ignoriraj metapodatke"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 i sur."

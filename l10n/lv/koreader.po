@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"projecttitle/lv/>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekts: Nosaukums"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Alternatīvie displeja režīmi failu pārlūkprogrammai un vēsturei."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Progres"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Apraksts"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Lasīšana"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Nav pieejams grāmatas apraksts."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "nav lasāms izmantošanai"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "pārāk daudz pārtraukumu vai avāriju"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Grāmatas"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Neizdevās saspiest datu bāzi: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Kešatmiņas datu bāzes izmērs samazināts no %1 uz %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Kešatmiņa ir tukša. Nav ko attīrīt."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "No kešatmiņas noņemti %1 / %2 ieraksti."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Šis process izvilks metadatus un vāku attēlus no grāmatām pašreizējā mapē."
+"\r\n"
+"Kad izvilkšana sākusies, jebkurā brīdī varat to atcelt, pieskaroties ekrānā."
+"\r\n"
+"\r\n"
+"Šī izvilkšana var aizņemt laiku un patērēt daļu akumulatora jaudas: "
+"ieteicams ierīci turēt pie strāvas."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Turpināt"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Vai arī izvilkt grāmatu informāciju no grāmatām apakšmapēs?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Tikai šeit"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Šeit un apakšā"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Vai vēlaties atsvaidzināt jau izvilktos metadatus un vākus?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Nekādi neatsvaidzināt"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Ja esat noņēmis daudz grāmatu vai pārdēvējis dažas mapes, ir ieteicams "
+"noņemt tās no kešatmiņas datu bāzes.\r\n"
+"\r\n"
+"Vai vēlaties attīrīt noņemto grāmatu kešatmiņu?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Nekādi neattīrīt"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Attīrīt"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Vai vēlaties apstāties?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Turpināt indeksēšanu"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Apstāt indeksēšanu"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Attīra noņemto grāmatu kešatmiņu"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Meklē grāmatas, kuras indeksēt"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Netika atrastas nevienas grāmatas."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Atrasta 1 grāmata indeksēšanai."
+msgstr[1] "Atrastas %1 grāmatas indeksēšanai."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Atrastas %1 grāmatas.\n"
+"Meklē jaunas grāmatas"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Netika atrastas jaunas grāmatas."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indeksē %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Pieskarieties jebkur, lai apstātos"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Apstrādātas %1 / %2 grāmatas."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Viens veiksmīgi izvilkts."
+msgstr[1] "%1 veiksmīgi izvilkti."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Fona izvilkšanas procesa uzsākšana neizdevās.\n"
+"Lūdzu, restartējiet KOReader vai savu ierīci."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Ielīmēt"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Atlasīt"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Pārdēvēt"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Dzēst"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Izgriezt"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopēt"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Atvērt ar"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Iestatīt kā SĀKUMU mapes"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Izslēgts"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Sākums"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Bibliotēka"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Mape"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Grāmata"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Mapes"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Pabeigts"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Uzgaidām"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Jauns"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Lapa %1 no %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 lapas palikušas"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(nav grāmatas informācijas: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(izdzēsts)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Notika kļūda reģistrējoties:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Fonti"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Nav pieejams"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikonas"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Atbalsts nav"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Versija: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Vāku saraksts"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Vāku režģis"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Sīkāka informācija"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Failu nosaukumu saraksts"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Samazināt vienību skaitu uz lapu"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Palielināt vienību skaitu uz lapu"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Izmantot šo režīmu visur"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Vēstures displeja režīms"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Kolekciju displeja režīms"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Vienības uz lapu"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Portreta vāku režģa režīms"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Kolonnas"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Rindas"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Ainavas vāku režģa režīms"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Saraksta režīmi"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Paplašinātās iestatījumi"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Mapes displejs"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Automātiski ģenerēt vāku attēlus no grāmatām"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Rādīt automātiski ģenerētos vāku attēlus kā steku"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Pārliktnis nosaukuma un detalizētās informācijas vāku režģī"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Grāmatu displejs"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Rādīt faila informāciju, nevis lapas vai progresu %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Rādīt izlasītas lapas, nevis progresu %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Rādīt progresu % vietā progresu joslām"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Vienmēr rādīt maksimāla garuma progresu joslas"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Rādīt sērijas"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Izmantot pielāgotu grāmatu statusa ekrānu"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Kājenes"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Aizstāt mapes nosaukumu ar ierīces informāciju"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Rādīt lapas vadības elementus kreisajā stūrī"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Bibliotēkas režīms"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Vispirms rādīt atvērtās grāmatas"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Kešatmiņas datu bāze"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Automātiski skenēt mājas mapi jaunām grāmatām"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Attīrīt kešatmiņu"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Vai esat pārliecināts, ka vēlaties attīrīt noņemto grāmatu kešatmiņu?\n"
+"(Tas var aizņemt laiku.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Tukša kešatmiņa"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Vai esat pārliecināts, ka vēlaties izdzēst vāka un metadatu kešatmiņu?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Kešatmiņa ir iztukšota."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Kešatmiņas izmērs"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Rādīt pēdējo elementu rādītāju uz skārienjūtīgām ierīcēm"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Projekts: Nosaukuma iestatījumi"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Izvilkt un kešatmiņā saglabāt grāmatu informāciju"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Atsvaidzināt kešatmiņā glabāto grāmatu informāciju"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Nerēķināt vāku"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Rēķināt vāku"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Nerēķināt metadatus"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Rēķināt metadatus"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 un citi."

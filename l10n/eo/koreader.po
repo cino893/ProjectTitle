@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"projecttitle/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekto: Titolo"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Alternativaj montradonoj por dosierumilo kaj historio."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Progreso"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Priskribo"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Legado"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Neniu libro priskribo disponebla."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "ne legebla de la motoro"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "tro multaj interrompoj aŭ kraŝoj"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Libroj"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Fiasko kompakti datumbazon: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Cache datumbaza grandeco reduktita de %1 ĝis %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Cache estas malsata. Nenio por pruni."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Forigitaj %1 / %2 eniroj el cache."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Tio ĉi eltirigos metadatenojn kaj kovrojn el libroj en la aktuala direktorio."
+"\r\n"
+"Ĉi foje, vi povas antaŭeniri en iu ajn momento per tuŝado de la ekrano.\r\n"
+"\r\n"
+"Tiu ĉi eltirado eble bezonos tempon kaj uzos iom da baterio: vi eble volas "
+"konservi vian aparaton konektita."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Daŭrigi"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Ĉu ankaŭ eltirigi librojn informojn el libroj en subdirektorioj?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Nur ĉi tie"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Ĉi tie kaj sub"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Ĉu vi volas ĝisdatigi metadatenojn kaj kovrojn, kiuj jam estis eltiritaj?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Ne ĝisdatigi"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Ĝisdatigi"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Se vi forigis multajn librojn aŭ renomigis kelkajn direktorijojn, bone estas "
+"forigi ilin el la cache datumbazo.\r\n"
+"\r\n"
+"Ĉu vi volas pruni la cache de forigitaj libroj?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Ne pruni"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Pruni"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Ĉu vi volas ĉesi?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Daŭrigi Indekson"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Ĉesi Indekson"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Prunante cache de forigitaj libroj"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Serĉante librojn por indekso"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Neniu libro trovita."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Trovita 1 libro por indekso."
+msgstr[1] "Trovitaj %1 libroj por indekso."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Trovitaj %1 libroj.\n"
+"Serĉante novajn librojn"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Neniu nova libro trovita."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indekso de %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Tuŝu ie por ĉesi"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Procesitaj %1 / %2 libroj."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Unu sukcesis eligi."
+msgstr[1] "%1 sukcesis eligi."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Fiasko en la ekigo de fondefaĝa eltirado.\n"
+"Bonvolu restarti KOReader aŭ vian aparaton."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Enmetu"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Elekti"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Renomi"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Forigi"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Tranĉi"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopii"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Malfermi kun"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Agordi kiel HEJMA dosierujo"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Ene"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Hejmo"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Biblioteko"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Dosierujo"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Libro"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Dosierujoj"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Finiĉita"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Surten"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Nova"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Paĝo %1 el %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 paĝoj restas"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(nenia libro informo: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(forigita)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Eraro okazis dum registrado:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Tiparoj"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Ne disponebla"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikonoj"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Ne subtenata"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Versio: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Kovro Listo"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Kovro Reto"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Detala Listo"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Dosiernomoj Listo"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Malpliigi Elementoj Po Paĝo"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Pligrandigi Elementoj Po Paĝo"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Uzi ĉi tiun modon ĉie"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Historio montrado modo"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Kolektoj montrado modo"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Elementoj po paĝo"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Portreta kovro reto modo"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Kolumnoj"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Vicoj"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Pejzaĝo kovro reto modo"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Listaj modoj"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Avancitaj agordoj"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Dosierujo montrado"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Aŭtomate generi kovrojn el libroj"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Mostri aŭtomate generitajn kovrojn kiel stakon"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Supermeti nomon kaj detalo en kovro reto"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Libro montrado"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Montri dosiera informo anstataŭ paĝoj aŭ progreso %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Montri legitaj paĝoj anstataŭ progresso %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Montri progreso % anstataŭ progreso baretroj"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Ĉiam montri maksimum-longajn progreso baretroj"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Montri seriojn"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Uzi kutiman libro status ekranon"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Fondo"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Anstataŭigi dosierujon nomon kun aparato informo"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Montri paĝajn kontroladojn en maldekstra angulo"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Biblioteka modo"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Montri malfermitajn librojn unue"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Cache datumbazo"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Aŭtomate skani hejman dosierujon por novaj libroj"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Pruni cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Ĉu vi certas, ke vi volas pruni la cache de forigitaj libroj?\n"
+"(Tio eble daŭros iom da tempo.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Malsata cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Ĉu vi certas, ke vi volas forigi kovron kaj metadatenojn el cache?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Cache malpleniĝis."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Cache grandeco"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Montri lastan elementon indikon sur tuŝ-ekranaj aparatoj"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Projekto: Titolo agordoj"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Elpreni kaj keŝi librojn informojn"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Ĝisdatigi keŝitajn librojn informojn"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Ne ignoru kovron"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ignori kovron"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Ne ignoru metadatenoj"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ignori metadatenojn"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 et al."

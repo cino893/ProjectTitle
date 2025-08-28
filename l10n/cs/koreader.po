@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"projecttitle/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekt: Název"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Alternativní režimy zobrazení pro prohlížeč souborů a historii."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Pokrok"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Popis"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Čtení"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Žádný popis knihy není k dispozici."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "není čitelný enginem"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "příliš mnoho přerušení nebo zhroucení"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Knihy"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Kompakce databáze se nezdařila: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Velikost databáze cache byla snížena z %1 na %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Cache je prázdná. Není co odstraňovat."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Odstraněno %1 / %2 položek z cache."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Tímto se extrahují metadata a obálky knih v aktuálním adresáři.\r\n"
+"Jakmile začne extrakce, můžete ji kdykoli přerušit klepnutím na obrazovku."
+"\r\n"
+"\r\n"
+"Tato extrakce může trvat nějakou dobu a může vyžadovat určité množství "
+"energie: doporučujeme mít zařízení připojené k napájení."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Chcete také extrahovat informace o knihách z knih v podadresářích?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Pouze zde"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Zde a pod"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Chcete obnovit metadata a obálky, které již byly extrahovány?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Neobnovovat"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Pokud jste odstranili mnoho knih nebo přejmenovali některé adresáře, je "
+"dobré je odstranit z databáze cache.\r\n"
+"\r\n"
+"Chcete vyčistit cache odstraněných knih?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Neodstranit"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Odstranit"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Chcete se zastavit?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Pokračovat ve indexování"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Zastavit indexování"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Odstraňování cache odstraněných knih"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Hledání knih k indexování"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Nebyly nalezeny žádné knihy."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Nalezena 1 kniha k indexování."
+msgstr[1] "Nalezeno %1 knih k indexování."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Nalezeno %1 knih.\n"
+"Hledání nových knih"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Nebyly nalezeny žádné nové knihy."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indexování %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Klepněte kdekoli pro zastavení"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Zpracováno %1 / %2 knih."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "Jedna úspěšně extrahována."
+msgstr[1] "%1 úspěšně extrahováno."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Spuštění pozadí pro extrakci se nezdařilo.\n"
+"Prosím, restartujte KOReader nebo zařízení."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Vložit"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Vybrat"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Přejmenovat"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Vyjmout"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Otevřít s"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Nastavit jako domovský adresář"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Vypnuto"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Domov"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Knihovna"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Složka"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Kniha"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Složky"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Dokončeno"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Pozastaveno"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Nové"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Strana %1 z %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "Zbývá %1 stránek"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(žádné informace o knize: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(smazáno)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Při registraci došlo k chybě:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Písma"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Nedostupné"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikony"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Nepodporováno"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Verze: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Seznam obálek"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Mřížka obálek"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Seznam podrobností"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Seznam názvů souborů"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Snížit položky na stránku"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Zvýšit položky na stránku"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Použít tento režim všude"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Režim zobrazení historie"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Režim zobrazení kolekcí"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Položky na stránku"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Režim mřížky obálek na výšku"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Sloupce"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Řádky"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Režim mřížky obálek na šířku"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Režimy seznamu"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Pokročilé nastavení"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Zobrazení složek"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Automaticky generovat obálky z knih"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Zobrazit automaticky generované obálky jako hromadu"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Překrýt název a detaily v mřížce obálek"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Zobrazení knih"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Zobrazit informace o souboru místo stránek nebo pokroku %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Zobrazit přečtené stránky místo pokroku %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Zobrazit pokrok % místo ukazatelů pokroku"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Vždy zobrazovat ukazatele pokroku maximální délky"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Zobrazit série"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Použít vlastní obrazovku stavu knihy"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Patička"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Nahradit název složky informacemi o zařízení"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Zobrazit ovládací prvky stránek v levém rohu"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Režim knihovny"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Nejprve zobrazit otevřené knihy"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Databáze cache"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Automaticky skenovat domovskou složku na nové knihy"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Vyčistit cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Jste si jisti, že chcete vyčistit cache odstraněných knih?\n"
+"(To může chvíli trvat.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Vyprázdnit cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Jste si jisti, že chcete smazat cache obálek a metadat?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Cache byla vyprázdněna."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Velikost cache"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Zobrazit ukazatel poslední položky na dotykových zařízeních"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Nastavení projektu: Název"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Extrahovat a ukládat informace o knihách"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Obnovit uložené informace o knihách"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Nepřehlížet obálku"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Přehlížet obálku"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Nepřehlížet metadata"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Přehlížet metadata"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 a kol."

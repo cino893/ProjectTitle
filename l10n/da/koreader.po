@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"projecttitle/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "Projekt: Titel"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "Alternative visningsformer for filbrowser og historik."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "Fremskridt"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "Læser"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "Ingen bogbeskrivelse tilgængelig."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "kan ikke læses af motoren"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "for mange afbrydelser eller nedbrud"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "Bøger"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "Fejl ved komprimering af database: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "Cache-databasestørrelse reduceret fra %1 til %2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "Cache er tom. Intet at beskære."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "Fjernet %1 / %2 poster fra cachen."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"Dette vil udtrække metadata og omslagsbilleder fra bøger i den nuværende "
+"mappe.\r\n"
+"Når udtrækningen er startet, kan du annullere når som helst ved at trykke på "
+"skærmen.\r\n"
+"\r\n"
+"Dette udtræk kan tage tid og bruge noget batteristrøm: du bør overveje at "
+"holde din enhed tilsluttet."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "Annuller"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"Skal der også udtrækkes boginformation fra bøger i underkataloger?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "Kun her"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "Her og under"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"Vil du opdatere metadata og omslag, der allerede er udtrukket?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "Opdater ikke"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "Opdater"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"Hvis du har fjernet mange bøger, eller har omdøbt nogle mapper, er det godt "
+"at fjerne dem fra cache-databasen.\r\n"
+"\r\n"
+"Vil du beskære cachen for fjernede bøger?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "Beskær ikke"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "Beskar"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "Vil du stoppe?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "Fortsæt indeksering"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "Stop indeksering"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "Beskærer cache for fjernede bøger"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "Søger efter bøger at indeksere"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "Ingen bøger blev fundet."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "Fundet 1 bog at indeksere."
+msgstr[1] "Fundet %1 bøger at indeksere."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"Fundet %1 bøger.\n"
+"Søger efter nye bøger"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "Ingen nye bøger fundet."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"Indekserer %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "Tryk hvor som helst for at stoppe"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "Behandlet %1 / %2 bøger."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "En udtrukket med succes."
+msgstr[1] "%1 udtrukket med succes."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"Starts af baggrundsudtrækningsjobbet mislykkedes.\n"
+"Genstart venligst KOReader eller din enhed."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "Indsæt"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "Vælg"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "Omdøb"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "Slet"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "Klipp"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "Kopier"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "Åbn med"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "Sæt som HJEM-mappe"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1Slukket"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "Hjem"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "Bibliotek"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "Mappe"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "Bog"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "Mapper"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "Færdig"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "Under behandling"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "Ny"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "Side %1 af %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 sider tilbage"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(ingen boginformation: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(slettet)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "Der opstod en fejl under registrering:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "Skrifter"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "Ikke tilgængelig"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "Ikoner"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~Ikke understøttet"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "Version: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "Omslagsliste"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "Omslagsgitter"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "Detaljeret liste"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "Filnavneliste"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "Formindsk Antal Elementer Pr. Side"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "Forøg Antal Elementer Pr. Side"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "Brug denne tilstand overalt"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "Historik visningsmode"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "Samlinger visningsmode"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "Elementer pr. side"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "Portræt omslagsgittertilstand"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "Kolonner"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "Rækker"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "Landskabs omslagsgittertilstand"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "Listeformer"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "Avancerede indstillinger"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "Mappevisning"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "Auto-generere omslagsbilleder fra bøger"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "Vis auto-genererede omslagsbilleder som et stak"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "Overlej navn og detaljer i omslagsgitter"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "Bogvisning"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "Vis filinformation i stedet for sider eller fremskridt %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "Vis læste sider i stedet for fremskridt %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "Vis fremskridt % i stedet for fremskridtslinjer"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "Vis altid maksimumslængde fremskridtslinjer"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "Vis serier"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "Brug brugerdefineret bogstatusskærm"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "Bundtekst"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "Erstat mappenavn med enhedsinfo"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "Vis sidekontroller i venstre hjørne"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "Biblioteksmodus"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "Vis åbnede bøger først"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "Cache-database"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "Scan hjemme-mappen for nye bøger automatisk"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "Beskær cache"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"Er du sikker på, at du vil beskære cachen for fjernede bøger?\n"
+"(Dette kan tage et stykke tid.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "Tøm cache"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "Er du sikker på, at du vil slette cache for omslag og metadata?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "Cache tømt."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "Caches størrelse"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "Vis indikator for sidste element på touchscreen-enheder"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "Projekt: Title indstillinger"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "Udtræk og cache boginformation"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "Opdater cached boginformation"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "Ignorer ikke omslag"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "Ignorer omslag"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "Ignorer ikke metadata"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "Ignorer metadata"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 et al."

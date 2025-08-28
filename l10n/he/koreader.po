@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"projecttitle/he/>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../_meta.lua:6 ../main.lua:74 ../main.lua:180 ../main.lua:187
+#: ../main.lua:194 ../main.lua:201
+msgid "Project: Title"
+msgstr "פרויקט: כותרת"
+
+#: ../_meta.lua:7
+msgid "Alternative display modes for file browser and history."
+msgstr "מצבי תצוגה חלופיים למנהל הקבצים וההיסטוריה."
+
+#: ../altbookstatuswidget.lua:44
+msgid "Progress"
+msgstr "התקדמות"
+
+#: ../altbookstatuswidget.lua:46
+msgid "Description"
+msgstr "תיאור"
+
+#: ../altbookstatuswidget.lua:188 ../listmenu.lua:419
+msgid "Reading"
+msgstr "קריאה"
+
+#: ../altbookstatuswidget.lua:190
+msgid "%1%"
+msgstr "%1%"
+
+#: ../altbookstatuswidget.lua:287
+msgid "No book description available."
+msgstr "אין תיאור ספר זמין."
+
+#: ../bookinfomanager.lua:128
+msgid "not readable by engine"
+msgstr "אין אפשרות לקרוא על ידי המנוע"
+
+#: ../bookinfomanager.lua:132
+msgid "too many interruptions or crashes"
+msgstr "יותר מדי הפסקות או קריסות"
+
+#: ../bookinfomanager.lua:165 ../listmenu.lua:190
+msgid "Books"
+msgstr "ספרים"
+
+#: ../bookinfomanager.lua:263
+msgid "Failed compacting database: %1"
+msgstr "נכשל בניסיון לדחוס את מאגר הנתונים: %1"
+
+#: ../bookinfomanager.lua:266
+msgid "Cache database size reduced from %1 to %2."
+msgstr "גודל מאגר הנתונים צומצם מ-%1 ל-%2."
+
+#: ../bookinfomanager.lua:731
+msgid "Cache is empty. Nothing to prune."
+msgstr "המאגר ריק. אין מה לקצץ."
+
+#: ../bookinfomanager.lua:748
+msgid "Removed %1 / %2 entries from cache."
+msgstr "הוסרו %1 / %2 רשומות מהמאגר."
+
+#: ../bookinfomanager.lua:928
+msgid ""
+"\r\n"
+"This will extract metadata and cover images from books in the current "
+"directory.\r\n"
+"Once extraction has started, you can abort at any moment by tapping on the "
+"screen.\r\n"
+"\r\n"
+"This extraction may take time and use some battery power: you may wish to "
+"keep your device plugged in."
+msgstr ""
+"\r\n"
+"זה יקנה מידע מטה ודימויי כריכה מספרים בתיקייה הנוכחית.\r\n"
+"ברגע שההפקה החלה, תוכל להפסיק בכל רגע על ידי הקשה על המסך.\r\n"
+"\r\n"
+"בהפקה זו עשויה לקחת זמן ולהשתמש בחלק מהסוללה: כדאי לחבר את המכשיר שלך."
+
+#: ../bookinfomanager.lua:933
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../bookinfomanager.lua:933
+msgid "Continue"
+msgstr "המשך"
+
+#: ../bookinfomanager.lua:938
+msgid ""
+"\r\n"
+"Also extract book information from books in subdirectories?"
+msgstr ""
+"\r\n"
+"גם להפיק מידע ספרים מספרים בתיקיות משנה?"
+
+#. @translators Extract book information only for books in this directory.
+#: ../bookinfomanager.lua:942
+msgid "Here only"
+msgstr "רק כאן"
+
+#. @translators Extract book information for books in this directory as well as in subdirectories.
+#: ../bookinfomanager.lua:944
+msgid "Here and under"
+msgstr "כאן ובתוך"
+
+#: ../bookinfomanager.lua:946
+msgid ""
+"\r\n"
+"Do you want to refresh metadata and covers that have already been extracted?"
+msgstr ""
+"\r\n"
+"האם אתה רוצה לרענן את המידע המטה וכריכות שכבר הופקו?"
+
+#: ../bookinfomanager.lua:948
+msgid "Don't refresh"
+msgstr "אל תרענן"
+
+#: ../bookinfomanager.lua:948
+msgid "Refresh"
+msgstr "רענן"
+
+#: ../bookinfomanager.lua:950
+msgid ""
+"\r\n"
+"If you have removed many books, or have renamed some directories, it is good "
+"to remove them from the cache database.\r\n"
+"\r\n"
+"Do you want to prune the cache of removed books?"
+msgstr ""
+"\r\n"
+"אם הסרת רבים מהספרים, או שינית שמות של תיקיות, טוב להסירם ממאגר הנתונים של "
+"המאגר.\r\n"
+"\r\n"
+"האם אתה רוצה לקצץ את המאגר של הספרים שהוסרו?"
+
+#: ../bookinfomanager.lua:954
+msgid "Don't prune"
+msgstr "אל תקצץ"
+
+#: ../bookinfomanager.lua:954
+msgid "Prune"
+msgstr "קצץ"
+
+#: ../bookinfomanager.lua:965
+msgid "Do you want to stop?"
+msgstr "האם אתה רוצה להפסיק?"
+
+#: ../bookinfomanager.lua:965
+msgid "Continue Indexing"
+msgstr "המשך אינדוקס"
+
+#: ../bookinfomanager.lua:965
+msgid "Stop Indexing"
+msgstr "הפסק אינדוקס"
+
+#: ../bookinfomanager.lua:974 ../main.lua:682
+msgid "Pruning cache of removed books"
+msgstr "קיצוץ המאגר של ספרים שהוסרו"
+
+#: ../bookinfomanager.lua:1001
+msgid "Looking for books to index"
+msgstr "מחפש ספרים לאינדוקס"
+
+#: ../bookinfomanager.lua:1015
+msgid "No books were found."
+msgstr "לא נמצאו ספרים."
+
+#: ../bookinfomanager.lua:1025 ../bookinfomanager.lua:1073
+msgid "Found 1 book to index."
+msgid_plural "Found %1 books to index."
+msgstr[0] "נמצא 1 ספר לאינדוקס."
+msgstr[1] "נמצאו %1 ספרים לאינדוקס."
+
+#: ../bookinfomanager.lua:1035
+msgid ""
+"Found %1 books.\n"
+"Looking for new books"
+msgstr ""
+"נמצאו %1 ספרים.\n"
+"מחפש ספרים חדשים"
+
+#: ../bookinfomanager.lua:1065
+msgid "No new books found."
+msgstr "לא נמצאו ספרים חדשים."
+
+#: ../bookinfomanager.lua:1102
+msgid ""
+"Indexing %1 / %2\n"
+"\n"
+"%3"
+msgstr ""
+"אינדוקס %1 / %2\n"
+"\n"
+"%3"
+
+#: ../bookinfomanager.lua:1102
+msgid "Tap anywhere to stop"
+msgstr "הקש בכל מקום כדי להפסיק"
+
+#: ../bookinfomanager.lua:1143
+msgid "Processed %1 / %2 books."
+msgstr "עובדים %1 / %2 ספרים."
+
+#: ../bookinfomanager.lua:1143
+msgid "One extracted successfully."
+msgid_plural "%1 extracted successfully."
+msgstr[0] "אחד הופק בהצלחה."
+msgstr[1] "%1 הופקו בהצלחה."
+
+#: ../covermenu.lua:181
+msgid ""
+"Start-up of background extraction job failed.\n"
+"Please restart KOReader or your device."
+msgstr ""
+"הפעלה של משימת הפקת רקע נכשלה.\n"
+"אנא הפעל מחדש את KOReader או את המכשיר שלך."
+
+#: ../covermenu.lua:453
+msgctxt "File"
+msgid "Paste"
+msgstr "הדבק"
+
+#: ../covermenu.lua:461
+msgid "Select"
+msgstr "בחר"
+
+#: ../covermenu.lua:474
+msgid "Rename"
+msgstr "שנה שם"
+
+#: ../covermenu.lua:484
+msgid "Delete"
+msgstr "מחק"
+
+#: ../covermenu.lua:492
+msgid "Cut"
+msgstr "גזור"
+
+#: ../covermenu.lua:500
+msgctxt "File"
+msgid "Copy"
+msgstr "העתק"
+
+#: ../covermenu.lua:546
+msgid "Open with"
+msgstr "פתח עם"
+
+#: ../covermenu.lua:564
+msgid "Set as HOME folder"
+msgstr "קבע כתקיית HOME"
+
+#: ../covermenu.lua:804 ../covermenu.lua:817
+msgid "%1Off"
+msgstr "%1כבוי"
+
+#: ../covermenu.lua:843
+msgid "Home"
+msgstr "בית"
+
+#: ../covermenu.lua:862
+msgid "Library"
+msgstr "ספרייה"
+
+#: ../listmenu.lua:173
+msgid "Folder"
+msgstr "תיקייה"
+
+#: ../listmenu.lua:174
+msgid "Book"
+msgstr "ספר"
+
+#: ../listmenu.lua:182
+msgid "Folders"
+msgstr "תיקיות"
+
+#: ../listmenu.lua:417
+msgid "Finished"
+msgstr "הושלם"
+
+#: ../listmenu.lua:418
+msgid "On hold"
+msgstr "בהמתנה"
+
+#: ../listmenu.lua:420
+msgid "New"
+msgstr "חדש"
+
+#: ../listmenu.lua:603
+msgid "Page %1 of %2"
+msgstr "עמוד %1 מתוך %2"
+
+#: ../listmenu.lua:607
+msgid "%1 pages left"
+msgstr "%1 עמודים נשארו"
+
+#: ../listmenu.lua:733
+msgid "(no book information: %1)"
+msgstr "(אין מידע ספרים: %1)"
+
+#: ../listmenu.lua:1103 ../mosaicmenu.lua:842
+msgid "(deleted)"
+msgstr "(מושלך)"
+
+#: ../main.lua:74
+msgid "An error occurred while registering:"
+msgstr "שגיאה התרחשה במהלך הרישום:"
+
+#: ../main.lua:76
+msgid "Fonts"
+msgstr "גופנים"
+
+#: ../main.lua:76 ../main.lua:79
+msgid "Not available"
+msgstr "לא זמין"
+
+#: ../main.lua:79
+msgid "Icons"
+msgstr "סמלים"
+
+#: ../main.lua:83
+msgid "%1 ~Unsupported"
+msgstr "%1 ~לא נתמך"
+
+#: ../main.lua:83
+msgid "Version: %1"
+msgstr "גרסה: %1"
+
+#: ../main.lua:159 ../main.lua:201
+msgid "Cover List"
+msgstr "רשימת כריכות"
+
+#: ../main.lua:160 ../main.lua:194
+msgid "Cover Grid"
+msgstr "גריד כריכות"
+
+#: ../main.lua:161
+msgid "Details List"
+msgstr "רשימת פרטים"
+
+#: ../main.lua:162
+msgid "Filenames List"
+msgstr "רשימת שמות קבצים"
+
+#: ../main.lua:180
+msgid "Decrease Items Per Page"
+msgstr "צמצם פריטים לעמוד"
+
+#: ../main.lua:187
+msgid "Increase Items Per Page"
+msgstr "הגדל פריטים לעמוד"
+
+#: ../main.lua:339
+msgid "Use this mode everywhere"
+msgstr "השתמש במצב זה בכל מקום"
+
+#: ../main.lua:351
+msgid "History display mode"
+msgstr "מצב תצוגת היסטוריה"
+
+#: ../main.lua:358
+msgid "Collections display mode"
+msgstr "מצב תצוגת אוספים"
+
+#: ../main.lua:366
+msgid "Items per page"
+msgstr "פריטים לעמוד"
+
+#: ../main.lua:370 ../main.lua:379
+msgid "Portrait cover grid mode"
+msgstr "מצב גריד כריכות פורטרט"
+
+#: ../main.lua:370 ../main.lua:420
+msgid ": %1  %2"
+msgstr ": %1  %2"
+
+#: ../main.lua:381 ../main.lua:430
+msgid "Columns"
+msgstr "עמודות"
+
+#: ../main.lua:387 ../main.lua:436
+msgid "Rows"
+msgstr "שורות"
+
+#: ../main.lua:420 ../main.lua:428
+msgid "Landscape cover grid mode"
+msgstr "מצב גריד כריכות נוף"
+
+#: ../main.lua:471 ../main.lua:478
+msgid "List modes"
+msgstr "מצבי רשימה"
+
+#: ../main.lua:471
+msgid ": %1"
+msgstr ": %1"
+
+#: ../main.lua:508
+msgid "Advanced settings"
+msgstr "הגדרות מתקדמות"
+
+#: ../main.lua:511
+msgid "Folder display"
+msgstr "תצוגת תיקיות"
+
+#: ../main.lua:514
+msgid "Auto-generate cover images from books"
+msgstr "יצירת דימויי כריכה אוטומטית מספרים"
+
+#: ../main.lua:524
+msgid "Show auto-generated cover images as a stack"
+msgstr "הצג דימויי כריכה שנוצרו אוטומטית כערימה"
+
+#: ../main.lua:535
+msgid "Overlay name and details in cover grid"
+msgstr "הנח שם ופרטים על גריד הכריכות"
+
+#: ../main.lua:545
+msgid "Book display"
+msgstr "תצוגת ספרים"
+
+#: ../main.lua:548
+msgid "Show file info instead of pages or progress %"
+msgstr "הצג מידע קובץ במקום עמודים או התקדמות %"
+
+#: ../main.lua:556
+msgid "Show pages read instead of progress %"
+msgstr "הצג עמודים שנקראו במקום התקדמות %"
+
+#: ../main.lua:569
+msgid "Show progress % instead of progress bars"
+msgstr "הצג התקדמות % במקום עמודי התקדמות"
+
+#: ../main.lua:583
+msgid "Always show maximum length progress bars"
+msgstr "תמיד הצג עמדות התקדמות באורך מקסימלי"
+
+#: ../main.lua:599
+msgid "Show series"
+msgstr "הצג סדרות"
+
+#: ../main.lua:612
+msgid "Use custom book status screen"
+msgstr "השתמש במסך סטטוס ספר מותאם אישית"
+
+#: ../main.lua:622
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: ../main.lua:625
+msgid "Replace folder name with device info"
+msgstr "החלף את שם התיקייה במידע על המכשיר"
+
+#: ../main.lua:633
+msgid "Show page controls in left corner"
+msgstr "הצג בקרי עמודים בפינה השמאלית"
+
+#: ../main.lua:643
+msgid "Library mode"
+msgstr "מצב ספרייה"
+
+#: ../main.lua:646
+msgid "Show opened books first"
+msgstr "הצג את הספרים הפתוחים קודם"
+
+#: ../main.lua:660
+msgid "Cache database"
+msgstr "מאגר נתונים זמני"
+
+#: ../main.lua:663
+msgid "Scan home folder for new books automatically"
+msgstr "סווג את תיקיית הבית עבור ספרים חדשים באופן אוטומטי"
+
+#: ../main.lua:671 ../main.lua:679
+msgid "Prune cache"
+msgstr "קצוץ מאגר"
+
+#: ../main.lua:678
+msgid ""
+"Are you sure that you want to prune cache of removed books?\n"
+"(This may take a while.)"
+msgstr ""
+"האם אתה בטוח שאתה רוצה לקצץ את מאגר הספרים שהוסרו?\n"
+"(זה עשוי לקחת קצת זמן.)"
+
+#: ../main.lua:695 ../main.lua:702
+msgid "Empty cache"
+msgstr "רוקן את המאגר"
+
+#: ../main.lua:701
+msgid "Are you sure that you want to delete cover and metadata cache?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את המאגר של כריכות ומידע מטה?"
+
+#: ../main.lua:707
+msgid "Cache emptied."
+msgstr "המאגר רוקן."
+
+#: ../main.lua:716
+msgid "Cache size"
+msgstr "גודל המאגר"
+
+#: ../main.lua:724
+msgid "Show last item indicator on touchscreen devices"
+msgstr "הצג את המדד של הפריט האחרון במכשירים עם מסך מגע"
+
+#: ../main.lua:733
+msgid "Project: Title settings"
+msgstr "הגדרות פרויקט: כותרת"
+
+#: ../main.lua:742
+msgid "Extract and cache book information"
+msgstr "הפק והזן את מידע הספרים"
+
+#: ../main.lua:758 ../main.lua:822
+msgid "Refresh cached book information"
+msgstr "רענן את מידע הספרים במאגר"
+
+#: ../main.lua:790
+msgid "Unignore cover"
+msgstr "בטל הזנחת כריכה"
+
+#: ../main.lua:790
+msgid "Ignore cover"
+msgstr "הזנח כריכה"
+
+#: ../main.lua:803
+msgid "Unignore metadata"
+msgstr "בטל הזנחת מידע מטה"
+
+#: ../main.lua:803
+msgid "Ignore metadata"
+msgstr "הזנח מידע מטה"
+
+#: ../ptutil.lua:402
+msgid "%1 et al."
+msgstr "%1 ואחרים."
